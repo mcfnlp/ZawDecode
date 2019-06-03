@@ -1,0 +1,747 @@
+@clig10=[uni1014 uni102B uni102C uni102D uni102F uni1030 uni1032 uni1036 uni1039 uni103C uni103D u.sig.long uu.sig.long uni1088];
+@clig11=[uni1021 uni102B uni102C uni102D uni102F uni1030 uni1031 uni1032 uni1036 uni1037 uni1038 uni1039 aukmyit.alt1 uni1088 uni1095];
+@clig12=[uni103B uni103D uni103E ya.ha.med ya.wa.med wa.ha.med ha.med.alt s.tawa ya.med.alt uni105E uni105F uni1060 uni1082 tawa.alt bba.sub mon.nga.sub shan.ya.wa.med ya.med.htunpra];
+@clig13=[uni1081 uni108F uniAA61 uniAA62 uniAA63 uniAA64 uniAA65 uniAA66 uniAA67 uniAA68 uniAA69 uniAA6A uniAA6B uniAA6C uniAA6D uniAA6E uniAA6F uniAA71];
+@clig14=[uni1000 uni1003 uni1006 uni100F uni1010 uni1011 uni1018 uni101A uni101C uni101E uni101F uni1021 uni103F uni1022 uni106E uni106F uni1070 uni1078 uni1079 uni107A uni107B uni107C uni107D uni107E uni1080];
+@clig15=[uni1001 uni1002 uni1004 uni1005 uni1007 uni100E uni1012 uni1013 uni1014 uni1015 uni1016 uni1017 uni1019 uni101B uni101D uni1027 na.alt ra.alt uni1050 uni1051 uni105A uni105C uni1065 uni1075 uni1076 uni1077 uni107F];
+@clig16=[ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub mon.jha.sub pa.ssa.sub ga.sha.sub sa.sub a.sub ha.sub];
+@clig17=[uni103B uni103D ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub wa.ha.med mon.jha.sub tawa.alt pa.ssa.sub ga.sha.sub sa.sub a.sub ha.sub];
+@clig18=[uni1030 uni103C ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub ya.ha.med ya.wa.med rawa.med.001 ha.med.u.sig ha.i.u mon.jha.sub pa.ssa.sub ga.sha.sub sa.sub a.sub ha.sub];
+@clig19=[ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub dda.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub mon.jha.sub nnya.sub bba.sub shan.ca.sub shan.ka.sub pa.ssa.sub ga.sha.sub sa.sub shan.pha.sub shan.na.sub shan.kha.sub mon.nga.sub a.sub ha.sub];
+@clig1=[uni102D uni102E uni1032 uni1036 uni1033 uni1035];
+@clig20=[.notdef uni103B uni103C uni103D uni103E ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub ya.ha.med ya.wa.med rawa.med.001 wa.ha.med ha.med.alt s.tawa ya.med.alt uni105E uni105F uni1060 uni1082 mon.jha.sub tawa.alt bba.sub pa.ssa.sub ga.sha.sub sa.sub mon.nga.sub a.sub shan.ya.wa.med ha.sub ya.med.htunpra];
+@clig21=[uni1000 uni1001 uni1002 uni1003 uni1004 uni1005 uni1006 uni1007 uni100E uni100F uni1010 uni1011 uni1012 uni1013 uni1014 uni1015 uni1016 uni1017 uni1018 uni1019 uni101A uni101B uni101C uni101D uni101E uni101F uni1021 uni1027 uni103F na.alt ra.alt uni1022 uni1050 uni1051 uni105A uni105C uni1065 uni106E uni106F uni1070 uni1075 uni1076 uni1077 uni1078 uni1079 uni107A uni107B uni107C uni107D uni107E uni107F uni1080];
+@clig22=[uni103B uni103D uni103E uni200D ka.sub kha.sub ga.sub gha.sub ca.sub cha.sub ja.sub jha.sub tta.sub ttha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub la.sub ta1.sub tha1.sub ya.ha.med ya.wa.med wa.ha.med ha.med.alt kinzi kinzi.i.vow kinzi.ii.vow kinzi.anusvara s.tawa ya.med.alt uni105E uni105F uni1060 uni1082 kinzi.ii.mon kinzi.eabove kinzi.ai.vow mon.jha.sub tawa.alt bba.sub pa.ssa.sub ga.sha.sub sa.sub mon.nga.sub a.sub ra.kinzi ra.kinzi.i ra.kinzi.ii shan.ya.wa.med ha.sub ya.med.htunpra];
+@clig23=[uni1000 uni1001 uni1002 uni1003 uni1004 uni1005 uni1006 uni1007 uni1008 uni1009 uni100A uni100B uni100C uni100D uni100E uni100F uni1010 uni1011 uni1012 uni1013 uni1014 uni1015 uni1016 uni1017 uni1018 uni1019 uni101A uni101B uni101C uni101D uni101E uni101F uni1020 uni1021 uni1027 uni1029 uni103F nya.alt na.alt ra.alt uni1022 uni1050 uni1051 uni105A uni105B uni105C uni105D uni1061 uni1065 uni106E uni106F uni1070 uni1075 uni1076 uni1077 uni1078 uni1079 uni107A uni107B uni107C uni107D uni107E uni107F uni1080 uni1081];
+@clig24=[uni1000 uni1001 uni1002 uni1003 uni1004 uni1005 uni1006 uni1007 uni1008 uni1009 uni100A uni100B uni100C uni100D uni100E uni100F uni1010 uni1011 uni1012 uni1013 uni1014 uni1015 uni1016 uni1017 uni1018 uni1019 uni101A uni101B uni101C uni101D uni101E uni101F uni1020 uni1021 uni1027 uni1029 uni103F nya.alt tta.tta.lig tta.ttha.lig dda.ddha.lig nna.dda.lig na.alt ra.alt dda.dda.lig lla.ha.med uni1022 uni1050 uni1051 uni105A uni105B uni105C uni105D uni1061 uni1065 uni106E uni106F uni1070 uni1075 uni1076 uni1077 uni1078 uni1079 uni107A uni107B uni107C uni107D uni107E uni107F uni1080 uni1081];
+@clig2=[uni102D uni102E uni1031 uni103C ra.med.wide ra.med.uppershort ra.med.uppershort.wide];
+@clig3=[ka.sub kha.sub cha.sub ta.sub tha.sub pha.sub ma.sub ta1.sub tha1.sub];
+@clig4=[kinzi kinzi.i.vow kinzi.ii.vow kinzi.anusvara kinzi.ii.mon kinzi.eabove kinzi.ai.vow ra.kinzi ra.kinzi.i ra.kinzi.ii];
+@clig5=[uni101B uni103B uni103D ka.sub ta1.sub ra.alt wa.ha.med ha.med.u.sig u.sig.long uu.sig.long];
+@clig6=[uni1000 uni1004 uni1005 uni1009 uni100A uni1010 uni1014 uni1015 uni1019 uni1025];
+@clig7=[uni101B uni103B uni103D ka.sub ta1.sub ra.alt wa.ha.med ha.med.u.sig u.sig.long uu.sig.long uni1083];
+@clig8=[.notdef uni103C uni200D kinzi kinzi.i.vow kinzi.ii.vow kinzi.anusvara kinzi.ii.mon kinzi.eabove kinzi.ai.vow ra.kinzi ra.kinzi.i ra.kinzi.ii];
+@clig9=[uni1008 uni1009 uni100A uni100B uni100C uni100D uni1020 uni1029 nya.alt uni105B uni105D uni1061 uni1081];
+languagesystem mymr dflt;
+
+
+feature liga { # Standard Ligatures
+ script mymr; # Myanmar
+lookup liga0 {
+    sub uni1004 uni103A uni1039 by kinzi;
+    sub uni101B uni103A uni1039 by ra.kinzi;
+    sub uni1039 uni1010 uni103D by tawa.alt;
+    sub uni105A uni103A uni1039 by kinzi;
+} liga0;
+lookup liga1 {
+    sub uni1062 uni1086 by sg.eu.final.y;
+    sub uni107E uni102F by shan.fa.u;
+    sub uni107E uni1030 by shan.fa.uu;
+    sub uni1081 uni102F by ha.3;
+    sub uni1081 uni1030 by ha.2;
+    sub uni1081 uni1082 by ha.4;
+    sub uni1081 uni103D by ha.1;
+    sub uni1083 uni1037 by shan.aa.aukmyit;
+    sub uni1083 uni1089 by shan.aa.aukmyit;
+    sub uni1083 uni103A by shan.aa.asat;
+} liga1;
+lookup liga2 {
+    sub [uni102F uni1030] by [u.sig.long uu.sig.long];
+} liga2;
+lookup liga4 {
+    sub uni100A uni1039 uni100A by great.nnya;
+    sub uni100B uni1039 uni100C by tta.ttha.lig;
+    sub uni100B uni1039 uni100B by tta.tta.lig;
+    sub uni100D uni1039 uni100E by dda.ddha.lig;
+    sub uni100D uni1039 uni100D by dda.dda.lig;
+    sub uni100F uni1039 uni100D by nna.dda.lig;
+    sub uni1020 uni103E by lla.ha.med;
+    sub uni1020 uni1039 uni1020 by lla.lla;
+    sub uni102B uni1036 by aa.vow.anus;
+    sub uni102B uni1032 by aa.vow.ai;
+    sub uni102B uni103A by aa.alt.atha;
+    sub uni1032 uniAA70 by ai_redu_locl;
+    sub uni103A uni1036 by ha.oe.u;
+    sub uni103A uniAA70 by asat.redu;
+    sub uni103D uni103E by wa.ha.med;
+    sub uni1051 uni1039 uni100C by ssa.ttha.lig;
+    sub uni1051 uni1039 uni100D by ssa.dda.lig;
+    sub uni1062 uni103A by sg.eu.asat;
+} liga4;
+lookup liga17 {
+    sub uni102C uni103E uni103A by aa.ha.killer;
+    sub uni102D uni1036 by i.vow.anusvara;
+    sub uni102D uni1032 by i.ai.vow;
+    sub uni1032 uniAA70 by ai_redu_locl;
+    sub uni103A uni103A by asat.asat.lig;
+    sub uni103A uniAA70 by asat.redu;
+    sub uni103B uni103D by ya.wa.med;
+    sub uni103B uni103E by ya.ha.med;
+    sub uni103B uni1082 by shan.ya.wa.med;
+    sub uni103B htunpra.pao by ya.med.htunpra;
+    sub uni103C uni103D by rawa.med.001;
+    sub uni103D uni103E by wa.ha.med;
+    sub uni103E uni102D u.sig.long by ha.i.u;
+    sub uni103E uni102D uu.sig.long by ha.i.uu.001;
+    sub uni103E uni1072 u.sig.long by uniA9FE;
+} liga17;
+lookup liga40 {
+    sub uni103A uni103C by ya.wa.med;
+    sub uni103C uni107D by ya.wa.med;
+    sub uni103C uni103A by ya.wa.med;
+    sub uni103D uni103A by ya.ha.med;
+    sub ra.med.wide uni107D by ya.wa.med;
+    sub ra.med.wide ra.med.wide by rawa.med.wide.001;
+    sub uni107D uni103C by ya.wa.med;
+    sub uni107D ra.med.wide by ya.wa.med;
+    sub uni107E uni103C by rawa.med.wide.001;
+} liga40;
+lookup liga44 {
+    sub [uni1005 uni1006 uni1010 uni1011 uni101A uni101C ra.alt uni108F] uni103C' by uni103D;
+    sub uni101E uni103C' uni102C by uni103D;
+    sub uni1032 uni103C' by uni103D;
+    sub uni107E uni1000 uni103C' by uni103D;
+    sub [uni106B uni1090] uni103C' by uni103D;
+} liga44;
+lookup liga103 {
+    sub uni1039 by uni103A;
+} liga103;
+} liga;
+
+feature clig { # Contextual Ligatures
+ script mymr; # Myanmar
+lookup clig3 {
+    sub [uni1009 uni100A uni103C] [uni103E htunpra.pao]' by [ha.med.alt htunpra.alt];
+} clig3;
+lookup clig5 {
+    sub uni1000 uni1039' [uni1000 uni1001]' by ka.sub;
+} clig5;
+lookup clig6 {
+    sub [uni1002 uni101E uni101F] uni1039' [uni1002 uni1003 uni1014 uni1019]' by ga.sub;
+} clig6;
+lookup clig7 {
+    sub [uni1005 uni1009] uni1039' [uni1005 uni1006]' by ca.sub;
+} clig7;
+lookup clig8 {
+    sub [uni1007 uni1009] uni1039' [uni1007 uni1008]' by ja.sub;
+} clig8;
+lookup clig9 {
+    sub [uni1010 uni1014 uni101E na.alt] uni1039' [uni1010 uni1011 uni101E]' by ta.sub;
+} clig9;
+lookup clig10 {
+    sub [uni1012 uni1014 na.alt] uni1039' [uni1012 uni1013 uni1014]' by da.sub;
+} clig10;
+lookup clig11 {
+    sub [uni1015 uni1019] uni1039' [uni1015 uni1016]' by pa.sub;
+} clig11;
+lookup clig12 {
+    sub [uni1017 uni1019] uni1039' [uni1017 uni1018 uni1019]' by ba.sub;
+} clig12;
+lookup clig13 {
+    sub uni100F uni1039' [uni100B uni100C uni100F]' by tta.sub;
+} clig13;
+lookup clig14 {
+    sub [uni1000 uni1015 uni101C] uni1039' uni101C' by la.sub;
+} clig14;
+lookup clig15 {
+    sub uni1010 [ta.sub tha.sub]' by [ta1.sub tha1.sub];
+} clig15;
+lookup clig16 {
+    sub uni105A' uni103A by uni1004;
+} clig16;
+lookup clig18 {
+    sub @clig21 [u.sig.long uu.sig.long]' by [uni102F uni1030];
+    sub @clig14 [uni102D uni102E uni1032 uni1035] [u.sig.long uu.sig.long]' by [uni102F uni1030];
+    sub @clig15 [uni102D uni102E uni1032 uni1035] [u.sig.long uu.sig.long]' by [uni102F uni1030];
+    sub @clig13 [uni102D uni102E uni1032] [u.sig.long uu.sig.long]' by [uni102F uni1030];
+    sub uni1014 uni103A [u.sig.long uu.sig.long]' by [uni102F uni1030];
+    sub [uni1031 uni1036 uni108F uni1090] [u.sig.long uu.sig.long]' by [uni102F uni1030];
+} clig18;
+lookup clig19 {
+    sub uni103E u.sig.long by ha.med.u.sig;
+    sub htunpra.pao u.sig.long by htunpra.u;
+    sub htunpra.pao uu.sig.long by htunpra.uu;
+} clig19;
+lookup clig20 {
+    sub uni102D' uni102F uni1032 by i.ai.vow;
+    sub uni102D' u.sig.long uni1032 by i.ai.vow;
+} clig20;
+lookup clig21 {
+    sub @clig14 media.la.pao' by media.la.pao.alt;
+} clig21;
+lookup clig22 {
+    sub [uni1032 uni103A]' uni1089 uniAA70 by [ai_redu_locl asat.redu];
+    sub [uni1032 uni103A]' uni1038 uniAA70 by [ai_redu_locl asat.redu];
+    sub [uni1032 uni103A]' uni1087 uniAA70 by [ai_redu_locl asat.redu];
+} clig22;
+lookup clig23 {
+    sub i.ai.vow [uni102F u.sig.long]' uni1032' by uni102F;
+} clig23;
+lookup clig24 {
+    sub [ai_redu_locl asat.redu] [uni1038 uni1087 uni1089]' uniAA70' by uni1038;
+} clig24;
+lookup clig25 {
+    sub [uni1009 uni100A uni1014]' @clig17 by [nya.alt nnya.alt na.alt];
+} clig25;
+lookup clig26 {
+    sub [uni100D uni1014]' u.sig.long by [dda.alt na.alt];
+    sub [uni100D uni1014]' uni102D u.sig.long by [dda.alt na.alt];
+    sub [uni100D uni1014]' [uni103E uu.sig.long] by [dda.alt na.alt];
+} clig26;
+lookup clig27 {
+    sub [uni1014 uni101B]' [uni102F uni103B] by [na.alt ra.alt];
+    sub [uni1014 uni101B]' uni102D uni102F by [na.alt ra.alt];
+    sub [uni1014 uni101B]' @clig18 by [na.alt ra.alt];
+    sub [uni1014 uni101B]' uni103A uni102F by [na.alt ra.alt];
+} clig27;
+lookup clig28 {
+    sub kinzi @clig21' uni103C uni1031 by [uni200D uni1031 ra.med.uppershort.wide uni1000 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1001 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1002 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1003 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1004 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1005 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1006 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1007 kinzi .notdef uni200D uni1031 ra.med.uppershort uni100E kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni100F kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1010 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1011 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1012 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1013 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1014 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1015 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1016 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1017 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1018 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1019 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni101A kinzi .notdef uni200D uni1031 ra.med.uppershort uni101B kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni101C kinzi .notdef uni200D uni1031 ra.med.uppershort uni101D kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni101E kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni101F kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1021 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1027 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni103F kinzi .notdef uni200D uni1031 ra.med.uppershort na.alt kinzi .notdef uni200D uni1031 ra.med.uppershort ra.alt kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1022 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1050 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1051 kinzi .notdef uni200D uni1031 ra.med.uppershort uni105A kinzi .notdef uni200D uni1031 ra.med.uppershort uni105C kinzi .notdef uni200D uni1031 ra.med.uppershort uni1065 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni106E kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni106F kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1070 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1075 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1076 kinzi .notdef uni200D uni1031 ra.med.uppershort uni1077 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1078 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1079 kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni107A kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni107B kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni107C kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni107D kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni107E kinzi .notdef uni200D uni1031 ra.med.uppershort uni107F kinzi .notdef uni200D uni1031 ra.med.uppershort.wide uni1080 kinzi .notdef];
+} clig28;
+lookup clig29 {
+    sub kinzi @clig21' uni103C uni102D by [uni200D ra.med.uppershort.wide uni1000 kinzi.i.vow uni200D ra.med.uppershort uni1001 kinzi.i.vow uni200D ra.med.uppershort uni1002 kinzi.i.vow uni200D ra.med.uppershort.wide uni1003 kinzi.i.vow uni200D ra.med.uppershort uni1004 kinzi.i.vow uni200D ra.med.uppershort uni1005 kinzi.i.vow uni200D ra.med.uppershort.wide uni1006 kinzi.i.vow uni200D ra.med.uppershort uni1007 kinzi.i.vow uni200D ra.med.uppershort uni100E kinzi.i.vow uni200D ra.med.uppershort.wide uni100F kinzi.i.vow uni200D ra.med.uppershort.wide uni1010 kinzi.i.vow uni200D ra.med.uppershort.wide uni1011 kinzi.i.vow uni200D ra.med.uppershort uni1012 kinzi.i.vow uni200D ra.med.uppershort uni1013 kinzi.i.vow uni200D ra.med.uppershort uni1014 kinzi.i.vow uni200D ra.med.uppershort uni1015 kinzi.i.vow uni200D ra.med.uppershort uni1016 kinzi.i.vow uni200D ra.med.uppershort uni1017 kinzi.i.vow uni200D ra.med.uppershort.wide uni1018 kinzi.i.vow uni200D ra.med.uppershort uni1019 kinzi.i.vow uni200D ra.med.uppershort.wide uni101A kinzi.i.vow uni200D ra.med.uppershort uni101B kinzi.i.vow uni200D ra.med.uppershort.wide uni101C kinzi.i.vow uni200D ra.med.uppershort uni101D kinzi.i.vow uni200D ra.med.uppershort.wide uni101E kinzi.i.vow uni200D ra.med.uppershort.wide uni101F kinzi.i.vow uni200D ra.med.uppershort.wide uni1021 kinzi.i.vow uni200D ra.med.uppershort uni1027 kinzi.i.vow uni200D ra.med.uppershort.wide uni103F kinzi.i.vow uni200D ra.med.uppershort na.alt kinzi.i.vow uni200D ra.med.uppershort ra.alt kinzi.i.vow uni200D ra.med.uppershort.wide uni1022 kinzi.i.vow uni200D ra.med.uppershort uni1050 kinzi.i.vow uni200D ra.med.uppershort uni1051 kinzi.i.vow uni200D ra.med.uppershort uni105A kinzi.i.vow uni200D ra.med.uppershort uni105C kinzi.i.vow uni200D ra.med.uppershort uni1065 kinzi.i.vow uni200D ra.med.uppershort.wide uni106E kinzi.i.vow uni200D ra.med.uppershort.wide uni106F kinzi.i.vow uni200D ra.med.uppershort.wide uni1070 kinzi.i.vow uni200D ra.med.uppershort uni1075 kinzi.i.vow uni200D ra.med.uppershort uni1076 kinzi.i.vow uni200D ra.med.uppershort uni1077 kinzi.i.vow uni200D ra.med.uppershort.wide uni1078 kinzi.i.vow uni200D ra.med.uppershort.wide uni1079 kinzi.i.vow uni200D ra.med.uppershort.wide uni107A kinzi.i.vow uni200D ra.med.uppershort.wide uni107B kinzi.i.vow uni200D ra.med.uppershort.wide uni107C kinzi.i.vow uni200D ra.med.uppershort.wide uni107D kinzi.i.vow uni200D ra.med.uppershort.wide uni107E kinzi.i.vow uni200D ra.med.uppershort uni107F kinzi.i.vow uni200D ra.med.uppershort.wide uni1080 kinzi.i.vow];
+} clig29;
+lookup clig30 {
+    sub ra.kinzi @clig21' uni103C uni102D by [uni200D ra.med.uppershort.wide uni1000 ra.kinzi.i uni200D ra.med.uppershort uni1001 ra.kinzi.i uni200D ra.med.uppershort uni1002 ra.kinzi.i uni200D ra.med.uppershort.wide uni1003 ra.kinzi.i uni200D ra.med.uppershort uni1004 ra.kinzi.i uni200D ra.med.uppershort uni1005 ra.kinzi.i uni200D ra.med.uppershort.wide uni1006 ra.kinzi.i uni200D ra.med.uppershort uni1007 ra.kinzi.i uni200D ra.med.uppershort uni100E ra.kinzi.i uni200D ra.med.uppershort.wide uni100F ra.kinzi.i uni200D ra.med.uppershort.wide uni1010 ra.kinzi.i uni200D ra.med.uppershort.wide uni1011 ra.kinzi.i uni200D ra.med.uppershort uni1012 ra.kinzi.i uni200D ra.med.uppershort uni1013 ra.kinzi.i uni200D ra.med.uppershort uni1014 ra.kinzi.i uni200D ra.med.uppershort uni1015 ra.kinzi.i uni200D ra.med.uppershort uni1016 ra.kinzi.i uni200D ra.med.uppershort uni1017 ra.kinzi.i uni200D ra.med.uppershort.wide uni1018 ra.kinzi.i uni200D ra.med.uppershort uni1019 ra.kinzi.i uni200D ra.med.uppershort.wide uni101A ra.kinzi.i uni200D ra.med.uppershort uni101B ra.kinzi.i uni200D ra.med.uppershort.wide uni101C ra.kinzi.i uni200D ra.med.uppershort uni101D ra.kinzi.i uni200D ra.med.uppershort.wide uni101E ra.kinzi.i uni200D ra.med.uppershort.wide uni101F ra.kinzi.i uni200D ra.med.uppershort.wide uni1021 ra.kinzi.i uni200D ra.med.uppershort uni1027 ra.kinzi.i uni200D ra.med.uppershort.wide uni103F ra.kinzi.i uni200D ra.med.uppershort na.alt ra.kinzi.i uni200D ra.med.uppershort ra.alt ra.kinzi.i uni200D ra.med.uppershort.wide uni1022 ra.kinzi.i uni200D ra.med.uppershort uni1050 ra.kinzi.i uni200D ra.med.uppershort uni1051 ra.kinzi.i uni200D ra.med.uppershort uni105A ra.kinzi.i uni200D ra.med.uppershort uni105C ra.kinzi.i uni200D ra.med.uppershort uni1065 ra.kinzi.i uni200D ra.med.uppershort.wide uni106E ra.kinzi.i uni200D ra.med.uppershort.wide uni106F ra.kinzi.i uni200D ra.med.uppershort.wide uni1070 ra.kinzi.i uni200D ra.med.uppershort uni1075 ra.kinzi.i uni200D ra.med.uppershort uni1076 ra.kinzi.i uni200D ra.med.uppershort uni1077 ra.kinzi.i uni200D ra.med.uppershort.wide uni1078 ra.kinzi.i uni200D ra.med.uppershort.wide uni1079 ra.kinzi.i uni200D ra.med.uppershort.wide uni107A ra.kinzi.i uni200D ra.med.uppershort.wide uni107B ra.kinzi.i uni200D ra.med.uppershort.wide uni107C ra.kinzi.i uni200D ra.med.uppershort.wide uni107D ra.kinzi.i uni200D ra.med.uppershort.wide uni107E ra.kinzi.i uni200D ra.med.uppershort uni107F ra.kinzi.i uni200D ra.med.uppershort.wide uni1080 ra.kinzi.i];
+} clig30;
+lookup clig31 {
+    sub kinzi @clig21' uni103C uni102E by [uni200D ra.med.uppershort.wide uni1000 kinzi.ii.vow uni200D ra.med.uppershort uni1001 kinzi.ii.vow uni200D ra.med.uppershort uni1002 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1003 kinzi.ii.vow uni200D ra.med.uppershort uni1004 kinzi.ii.vow uni200D ra.med.uppershort uni1005 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1006 kinzi.ii.vow uni200D ra.med.uppershort uni1007 kinzi.ii.vow uni200D ra.med.uppershort uni100E kinzi.ii.vow uni200D ra.med.uppershort.wide uni100F kinzi.ii.vow uni200D ra.med.uppershort.wide uni1010 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1011 kinzi.ii.vow uni200D ra.med.uppershort uni1012 kinzi.ii.vow uni200D ra.med.uppershort uni1013 kinzi.ii.vow uni200D ra.med.uppershort uni1014 kinzi.ii.vow uni200D ra.med.uppershort uni1015 kinzi.ii.vow uni200D ra.med.uppershort uni1016 kinzi.ii.vow uni200D ra.med.uppershort uni1017 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1018 kinzi.ii.vow uni200D ra.med.uppershort uni1019 kinzi.ii.vow uni200D ra.med.uppershort.wide uni101A kinzi.ii.vow uni200D ra.med.uppershort uni101B kinzi.ii.vow uni200D ra.med.uppershort.wide uni101C kinzi.ii.vow uni200D ra.med.uppershort uni101D kinzi.ii.vow uni200D ra.med.uppershort.wide uni101E kinzi.ii.vow uni200D ra.med.uppershort.wide uni101F kinzi.ii.vow uni200D ra.med.uppershort.wide uni1021 kinzi.ii.vow uni200D ra.med.uppershort uni1027 kinzi.ii.vow uni200D ra.med.uppershort.wide uni103F kinzi.ii.vow uni200D ra.med.uppershort na.alt kinzi.ii.vow uni200D ra.med.uppershort ra.alt kinzi.ii.vow uni200D ra.med.uppershort.wide uni1022 kinzi.ii.vow uni200D ra.med.uppershort uni1050 kinzi.ii.vow uni200D ra.med.uppershort uni1051 kinzi.ii.vow uni200D ra.med.uppershort uni105A kinzi.ii.vow uni200D ra.med.uppershort uni105C kinzi.ii.vow uni200D ra.med.uppershort uni1065 kinzi.ii.vow uni200D ra.med.uppershort.wide uni106E kinzi.ii.vow uni200D ra.med.uppershort.wide uni106F kinzi.ii.vow uni200D ra.med.uppershort.wide uni1070 kinzi.ii.vow uni200D ra.med.uppershort uni1075 kinzi.ii.vow uni200D ra.med.uppershort uni1076 kinzi.ii.vow uni200D ra.med.uppershort uni1077 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1078 kinzi.ii.vow uni200D ra.med.uppershort.wide uni1079 kinzi.ii.vow uni200D ra.med.uppershort.wide uni107A kinzi.ii.vow uni200D ra.med.uppershort.wide uni107B kinzi.ii.vow uni200D ra.med.uppershort.wide uni107C kinzi.ii.vow uni200D ra.med.uppershort.wide uni107D kinzi.ii.vow uni200D ra.med.uppershort.wide uni107E kinzi.ii.vow uni200D ra.med.uppershort uni107F kinzi.ii.vow uni200D ra.med.uppershort.wide uni1080 kinzi.ii.vow];
+} clig31;
+lookup clig32 {
+    sub ra.kinzi @clig21' uni103C uni102E by [uni200D ra.med.uppershort.wide uni1000 ra.kinzi.ii uni200D ra.med.uppershort uni1001 ra.kinzi.ii uni200D ra.med.uppershort uni1002 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1003 ra.kinzi.ii uni200D ra.med.uppershort uni1004 ra.kinzi.ii uni200D ra.med.uppershort uni1005 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1006 ra.kinzi.ii uni200D ra.med.uppershort uni1007 ra.kinzi.ii uni200D ra.med.uppershort uni100E ra.kinzi.ii uni200D ra.med.uppershort.wide uni100F ra.kinzi.ii uni200D ra.med.uppershort.wide uni1010 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1011 ra.kinzi.ii uni200D ra.med.uppershort uni1012 ra.kinzi.ii uni200D ra.med.uppershort uni1013 ra.kinzi.ii uni200D ra.med.uppershort uni1014 ra.kinzi.ii uni200D ra.med.uppershort uni1015 ra.kinzi.ii uni200D ra.med.uppershort uni1016 ra.kinzi.ii uni200D ra.med.uppershort uni1017 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1018 ra.kinzi.ii uni200D ra.med.uppershort uni1019 ra.kinzi.ii uni200D ra.med.uppershort.wide uni101A ra.kinzi.ii uni200D ra.med.uppershort uni101B ra.kinzi.ii uni200D ra.med.uppershort.wide uni101C ra.kinzi.ii uni200D ra.med.uppershort uni101D ra.kinzi.ii uni200D ra.med.uppershort.wide uni101E ra.kinzi.ii uni200D ra.med.uppershort.wide uni101F ra.kinzi.ii uni200D ra.med.uppershort.wide uni1021 ra.kinzi.ii uni200D ra.med.uppershort uni1027 ra.kinzi.ii uni200D ra.med.uppershort.wide uni103F ra.kinzi.ii uni200D ra.med.uppershort na.alt ra.kinzi.ii uni200D ra.med.uppershort ra.alt ra.kinzi.ii uni200D ra.med.uppershort.wide uni1022 ra.kinzi.ii uni200D ra.med.uppershort uni1050 ra.kinzi.ii uni200D ra.med.uppershort uni1051 ra.kinzi.ii uni200D ra.med.uppershort uni105A ra.kinzi.ii uni200D ra.med.uppershort uni105C ra.kinzi.ii uni200D ra.med.uppershort uni1065 ra.kinzi.ii uni200D ra.med.uppershort.wide uni106E ra.kinzi.ii uni200D ra.med.uppershort.wide uni106F ra.kinzi.ii uni200D ra.med.uppershort.wide uni1070 ra.kinzi.ii uni200D ra.med.uppershort uni1075 ra.kinzi.ii uni200D ra.med.uppershort uni1076 ra.kinzi.ii uni200D ra.med.uppershort uni1077 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1078 ra.kinzi.ii uni200D ra.med.uppershort.wide uni1079 ra.kinzi.ii uni200D ra.med.uppershort.wide uni107A ra.kinzi.ii uni200D ra.med.uppershort.wide uni107B ra.kinzi.ii uni200D ra.med.uppershort.wide uni107C ra.kinzi.ii uni200D ra.med.uppershort.wide uni107D ra.kinzi.ii uni200D ra.med.uppershort.wide uni107E ra.kinzi.ii uni200D ra.med.uppershort uni107F ra.kinzi.ii uni200D ra.med.uppershort.wide uni1080 ra.kinzi.ii];
+} clig32;
+lookup clig33 {
+    sub kinzi @clig21' uni103C uni1033 by [uni200D ra.med.uppershort.wide uni1000 kinzi.ii.mon uni200D ra.med.uppershort uni1001 kinzi.ii.mon uni200D ra.med.uppershort uni1002 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1003 kinzi.ii.mon uni200D ra.med.uppershort uni1004 kinzi.ii.mon uni200D ra.med.uppershort uni1005 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1006 kinzi.ii.mon uni200D ra.med.uppershort uni1007 kinzi.ii.mon uni200D ra.med.uppershort uni100E kinzi.ii.mon uni200D ra.med.uppershort.wide uni100F kinzi.ii.mon uni200D ra.med.uppershort.wide uni1010 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1011 kinzi.ii.mon uni200D ra.med.uppershort uni1012 kinzi.ii.mon uni200D ra.med.uppershort uni1013 kinzi.ii.mon uni200D ra.med.uppershort uni1014 kinzi.ii.mon uni200D ra.med.uppershort uni1015 kinzi.ii.mon uni200D ra.med.uppershort uni1016 kinzi.ii.mon uni200D ra.med.uppershort uni1017 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1018 kinzi.ii.mon uni200D ra.med.uppershort uni1019 kinzi.ii.mon uni200D ra.med.uppershort.wide uni101A kinzi.ii.mon uni200D ra.med.uppershort uni101B kinzi.ii.mon uni200D ra.med.uppershort.wide uni101C kinzi.ii.mon uni200D ra.med.uppershort uni101D kinzi.ii.mon uni200D ra.med.uppershort.wide uni101E kinzi.ii.mon uni200D ra.med.uppershort.wide uni101F kinzi.ii.mon uni200D ra.med.uppershort.wide uni1021 kinzi.ii.mon uni200D ra.med.uppershort uni1027 kinzi.ii.mon uni200D ra.med.uppershort.wide uni103F kinzi.ii.mon uni200D ra.med.uppershort na.alt kinzi.ii.mon uni200D ra.med.uppershort ra.alt kinzi.ii.mon uni200D ra.med.uppershort.wide uni1022 kinzi.ii.mon uni200D ra.med.uppershort uni1050 kinzi.ii.mon uni200D ra.med.uppershort uni1051 kinzi.ii.mon uni200D ra.med.uppershort uni105A kinzi.ii.mon uni200D ra.med.uppershort uni105C kinzi.ii.mon uni200D ra.med.uppershort uni1065 kinzi.ii.mon uni200D ra.med.uppershort.wide uni106E kinzi.ii.mon uni200D ra.med.uppershort.wide uni106F kinzi.ii.mon uni200D ra.med.uppershort.wide uni1070 kinzi.ii.mon uni200D ra.med.uppershort uni1075 kinzi.ii.mon uni200D ra.med.uppershort uni1076 kinzi.ii.mon uni200D ra.med.uppershort uni1077 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1078 kinzi.ii.mon uni200D ra.med.uppershort.wide uni1079 kinzi.ii.mon uni200D ra.med.uppershort.wide uni107A kinzi.ii.mon uni200D ra.med.uppershort.wide uni107B kinzi.ii.mon uni200D ra.med.uppershort.wide uni107C kinzi.ii.mon uni200D ra.med.uppershort.wide uni107D kinzi.ii.mon uni200D ra.med.uppershort.wide uni107E kinzi.ii.mon uni200D ra.med.uppershort uni107F kinzi.ii.mon uni200D ra.med.uppershort.wide uni1080 kinzi.ii.mon];
+} clig33;
+lookup clig34 {
+    sub kinzi @clig21' uni103C uni1035 by [uni200D ra.med.uppershort.wide uni1000 kinzi.eabove uni200D ra.med.uppershort uni1001 kinzi.eabove uni200D ra.med.uppershort uni1002 kinzi.eabove uni200D ra.med.uppershort.wide uni1003 kinzi.eabove uni200D ra.med.uppershort uni1004 kinzi.eabove uni200D ra.med.uppershort uni1005 kinzi.eabove uni200D ra.med.uppershort.wide uni1006 kinzi.eabove uni200D ra.med.uppershort uni1007 kinzi.eabove uni200D ra.med.uppershort uni100E kinzi.eabove uni200D ra.med.uppershort.wide uni100F kinzi.eabove uni200D ra.med.uppershort.wide uni1010 kinzi.eabove uni200D ra.med.uppershort.wide uni1011 kinzi.eabove uni200D ra.med.uppershort uni1012 kinzi.eabove uni200D ra.med.uppershort uni1013 kinzi.eabove uni200D ra.med.uppershort uni1014 kinzi.eabove uni200D ra.med.uppershort uni1015 kinzi.eabove uni200D ra.med.uppershort uni1016 kinzi.eabove uni200D ra.med.uppershort uni1017 kinzi.eabove uni200D ra.med.uppershort.wide uni1018 kinzi.eabove uni200D ra.med.uppershort uni1019 kinzi.eabove uni200D ra.med.uppershort.wide uni101A kinzi.eabove uni200D ra.med.uppershort uni101B kinzi.eabove uni200D ra.med.uppershort.wide uni101C kinzi.eabove uni200D ra.med.uppershort uni101D kinzi.eabove uni200D ra.med.uppershort.wide uni101E kinzi.eabove uni200D ra.med.uppershort.wide uni101F kinzi.eabove uni200D ra.med.uppershort.wide uni1021 kinzi.eabove uni200D ra.med.uppershort uni1027 kinzi.eabove uni200D ra.med.uppershort.wide uni103F kinzi.eabove uni200D ra.med.uppershort na.alt kinzi.eabove uni200D ra.med.uppershort ra.alt kinzi.eabove uni200D ra.med.uppershort.wide uni1022 kinzi.eabove uni200D ra.med.uppershort uni1050 kinzi.eabove uni200D ra.med.uppershort uni1051 kinzi.eabove uni200D ra.med.uppershort uni105A kinzi.eabove uni200D ra.med.uppershort uni105C kinzi.eabove uni200D ra.med.uppershort uni1065 kinzi.eabove uni200D ra.med.uppershort.wide uni106E kinzi.eabove uni200D ra.med.uppershort.wide uni106F kinzi.eabove uni200D ra.med.uppershort.wide uni1070 kinzi.eabove uni200D ra.med.uppershort uni1075 kinzi.eabove uni200D ra.med.uppershort uni1076 kinzi.eabove uni200D ra.med.uppershort uni1077 kinzi.eabove uni200D ra.med.uppershort.wide uni1078 kinzi.eabove uni200D ra.med.uppershort.wide uni1079 kinzi.eabove uni200D ra.med.uppershort.wide uni107A kinzi.eabove uni200D ra.med.uppershort.wide uni107B kinzi.eabove uni200D ra.med.uppershort.wide uni107C kinzi.eabove uni200D ra.med.uppershort.wide uni107D kinzi.eabove uni200D ra.med.uppershort.wide uni107E kinzi.eabove uni200D ra.med.uppershort uni107F kinzi.eabove uni200D ra.med.uppershort.wide uni1080 kinzi.eabove];
+} clig34;
+lookup clig35 {
+    sub kinzi @clig21' uni103C uni1032 by [uni200D ra.med.uppershort.wide uni1000 kinzi.ai.vow uni200D ra.med.uppershort uni1001 kinzi.ai.vow uni200D ra.med.uppershort uni1002 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1003 kinzi.ai.vow uni200D ra.med.uppershort uni1004 kinzi.ai.vow uni200D ra.med.uppershort uni1005 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1006 kinzi.ai.vow uni200D ra.med.uppershort uni1007 kinzi.ai.vow uni200D ra.med.uppershort uni100E kinzi.ai.vow uni200D ra.med.uppershort.wide uni100F kinzi.ai.vow uni200D ra.med.uppershort.wide uni1010 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1011 kinzi.ai.vow uni200D ra.med.uppershort uni1012 kinzi.ai.vow uni200D ra.med.uppershort uni1013 kinzi.ai.vow uni200D ra.med.uppershort uni1014 kinzi.ai.vow uni200D ra.med.uppershort uni1015 kinzi.ai.vow uni200D ra.med.uppershort uni1016 kinzi.ai.vow uni200D ra.med.uppershort uni1017 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1018 kinzi.ai.vow uni200D ra.med.uppershort uni1019 kinzi.ai.vow uni200D ra.med.uppershort.wide uni101A kinzi.ai.vow uni200D ra.med.uppershort uni101B kinzi.ai.vow uni200D ra.med.uppershort.wide uni101C kinzi.ai.vow uni200D ra.med.uppershort uni101D kinzi.ai.vow uni200D ra.med.uppershort.wide uni101E kinzi.ai.vow uni200D ra.med.uppershort.wide uni101F kinzi.ai.vow uni200D ra.med.uppershort.wide uni1021 kinzi.ai.vow uni200D ra.med.uppershort uni1027 kinzi.ai.vow uni200D ra.med.uppershort.wide uni103F kinzi.ai.vow uni200D ra.med.uppershort na.alt kinzi.ai.vow uni200D ra.med.uppershort ra.alt kinzi.ai.vow uni200D ra.med.uppershort.wide uni1022 kinzi.ai.vow uni200D ra.med.uppershort uni1050 kinzi.ai.vow uni200D ra.med.uppershort uni1051 kinzi.ai.vow uni200D ra.med.uppershort uni105A kinzi.ai.vow uni200D ra.med.uppershort uni105C kinzi.ai.vow uni200D ra.med.uppershort uni1065 kinzi.ai.vow uni200D ra.med.uppershort.wide uni106E kinzi.ai.vow uni200D ra.med.uppershort.wide uni106F kinzi.ai.vow uni200D ra.med.uppershort.wide uni1070 kinzi.ai.vow uni200D ra.med.uppershort uni1075 kinzi.ai.vow uni200D ra.med.uppershort uni1076 kinzi.ai.vow uni200D ra.med.uppershort uni1077 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1078 kinzi.ai.vow uni200D ra.med.uppershort.wide uni1079 kinzi.ai.vow uni200D ra.med.uppershort.wide uni107A kinzi.ai.vow uni200D ra.med.uppershort.wide uni107B kinzi.ai.vow uni200D ra.med.uppershort.wide uni107C kinzi.ai.vow uni200D ra.med.uppershort.wide uni107D kinzi.ai.vow uni200D ra.med.uppershort.wide uni107E kinzi.ai.vow uni200D ra.med.uppershort uni107F kinzi.ai.vow uni200D ra.med.uppershort.wide uni1080 kinzi.ai.vow];
+} clig35;
+lookup clig36 {
+    sub kinzi @clig21' uni103C uni1036 by [uni200D ra.med.uppershort.wide uni1000 kinzi.anusvara uni200D ra.med.uppershort uni1001 kinzi.anusvara uni200D ra.med.uppershort uni1002 kinzi.anusvara uni200D ra.med.uppershort.wide uni1003 kinzi.anusvara uni200D ra.med.uppershort uni1004 kinzi.anusvara uni200D ra.med.uppershort uni1005 kinzi.anusvara uni200D ra.med.uppershort.wide uni1006 kinzi.anusvara uni200D ra.med.uppershort uni1007 kinzi.anusvara uni200D ra.med.uppershort uni100E kinzi.anusvara uni200D ra.med.uppershort.wide uni100F kinzi.anusvara uni200D ra.med.uppershort.wide uni1010 kinzi.anusvara uni200D ra.med.uppershort.wide uni1011 kinzi.anusvara uni200D ra.med.uppershort uni1012 kinzi.anusvara uni200D ra.med.uppershort uni1013 kinzi.anusvara uni200D ra.med.uppershort uni1014 kinzi.anusvara uni200D ra.med.uppershort uni1015 kinzi.anusvara uni200D ra.med.uppershort uni1016 kinzi.anusvara uni200D ra.med.uppershort uni1017 kinzi.anusvara uni200D ra.med.uppershort.wide uni1018 kinzi.anusvara uni200D ra.med.uppershort uni1019 kinzi.anusvara uni200D ra.med.uppershort.wide uni101A kinzi.anusvara uni200D ra.med.uppershort uni101B kinzi.anusvara uni200D ra.med.uppershort.wide uni101C kinzi.anusvara uni200D ra.med.uppershort uni101D kinzi.anusvara uni200D ra.med.uppershort.wide uni101E kinzi.anusvara uni200D ra.med.uppershort.wide uni101F kinzi.anusvara uni200D ra.med.uppershort.wide uni1021 kinzi.anusvara uni200D ra.med.uppershort uni1027 kinzi.anusvara uni200D ra.med.uppershort.wide uni103F kinzi.anusvara uni200D ra.med.uppershort na.alt kinzi.anusvara uni200D ra.med.uppershort ra.alt kinzi.anusvara uni200D ra.med.uppershort.wide uni1022 kinzi.anusvara uni200D ra.med.uppershort uni1050 kinzi.anusvara uni200D ra.med.uppershort uni1051 kinzi.anusvara uni200D ra.med.uppershort uni105A kinzi.anusvara uni200D ra.med.uppershort uni105C kinzi.anusvara uni200D ra.med.uppershort uni1065 kinzi.anusvara uni200D ra.med.uppershort.wide uni106E kinzi.anusvara uni200D ra.med.uppershort.wide uni106F kinzi.anusvara uni200D ra.med.uppershort.wide uni1070 kinzi.anusvara uni200D ra.med.uppershort uni1075 kinzi.anusvara uni200D ra.med.uppershort uni1076 kinzi.anusvara uni200D ra.med.uppershort uni1077 kinzi.anusvara uni200D ra.med.uppershort.wide uni1078 kinzi.anusvara uni200D ra.med.uppershort.wide uni1079 kinzi.anusvara uni200D ra.med.uppershort.wide uni107A kinzi.anusvara uni200D ra.med.uppershort.wide uni107B kinzi.anusvara uni200D ra.med.uppershort.wide uni107C kinzi.anusvara uni200D ra.med.uppershort.wide uni107D kinzi.anusvara uni200D ra.med.uppershort.wide uni107E kinzi.anusvara uni200D ra.med.uppershort uni107F kinzi.anusvara uni200D ra.med.uppershort.wide uni1080 kinzi.anusvara];
+} clig36;
+lookup clig37 {
+    sub kinzi @clig21' uni103C by [uni200D ra.med.uppershort.wide uni1000 kinzi .notdef uni200D ra.med.uppershort uni1001 kinzi .notdef uni200D ra.med.uppershort uni1002 kinzi .notdef uni200D ra.med.uppershort.wide uni1003 kinzi .notdef uni200D ra.med.uppershort uni1004 kinzi .notdef uni200D ra.med.uppershort uni1005 kinzi .notdef uni200D ra.med.uppershort.wide uni1006 kinzi .notdef uni200D ra.med.uppershort uni1007 kinzi .notdef uni200D ra.med.uppershort uni100E kinzi .notdef uni200D ra.med.uppershort.wide uni100F kinzi .notdef uni200D ra.med.uppershort.wide uni1010 kinzi .notdef uni200D ra.med.uppershort.wide uni1011 kinzi .notdef uni200D ra.med.uppershort uni1012 kinzi .notdef uni200D ra.med.uppershort uni1013 kinzi .notdef uni200D ra.med.uppershort uni1014 kinzi .notdef uni200D ra.med.uppershort uni1015 kinzi .notdef uni200D ra.med.uppershort uni1016 kinzi .notdef uni200D ra.med.uppershort uni1017 kinzi .notdef uni200D ra.med.uppershort.wide uni1018 kinzi .notdef uni200D ra.med.uppershort uni1019 kinzi .notdef uni200D ra.med.uppershort.wide uni101A kinzi .notdef uni200D ra.med.uppershort uni101B kinzi .notdef uni200D ra.med.uppershort.wide uni101C kinzi .notdef uni200D ra.med.uppershort uni101D kinzi .notdef uni200D ra.med.uppershort.wide uni101E kinzi .notdef uni200D ra.med.uppershort.wide uni101F kinzi .notdef uni200D ra.med.uppershort.wide uni1021 kinzi .notdef uni200D ra.med.uppershort uni1027 kinzi .notdef uni200D ra.med.uppershort.wide uni103F kinzi .notdef uni200D ra.med.uppershort na.alt kinzi .notdef uni200D ra.med.uppershort ra.alt kinzi .notdef uni200D ra.med.uppershort.wide uni1022 kinzi .notdef uni200D ra.med.uppershort uni1050 kinzi .notdef uni200D ra.med.uppershort uni1051 kinzi .notdef uni200D ra.med.uppershort uni105A kinzi .notdef uni200D ra.med.uppershort uni105C kinzi .notdef uni200D ra.med.uppershort uni1065 kinzi .notdef uni200D ra.med.uppershort.wide uni106E kinzi .notdef uni200D ra.med.uppershort.wide uni106F kinzi .notdef uni200D ra.med.uppershort.wide uni1070 kinzi .notdef uni200D ra.med.uppershort uni1075 kinzi .notdef uni200D ra.med.uppershort uni1076 kinzi .notdef uni200D ra.med.uppershort uni1077 kinzi .notdef uni200D ra.med.uppershort.wide uni1078 kinzi .notdef uni200D ra.med.uppershort.wide uni1079 kinzi .notdef uni200D ra.med.uppershort.wide uni107A kinzi .notdef uni200D ra.med.uppershort.wide uni107B kinzi .notdef uni200D ra.med.uppershort.wide uni107C kinzi .notdef uni200D ra.med.uppershort.wide uni107D kinzi .notdef uni200D ra.med.uppershort.wide uni107E kinzi .notdef uni200D ra.med.uppershort uni107F kinzi .notdef uni200D ra.med.uppershort.wide uni1080 kinzi .notdef];
+} clig37;
+lookup clig38 {
+    sub @clig21' rawa.med.001 uni102D by [rawa.med.wide.001 uni1000 uni200D rawa.med.001 uni1001 uni200D rawa.med.001 uni1002 uni200D rawa.med.wide.001 uni1003 uni200D rawa.med.001 uni1004 uni200D rawa.med.001 uni1005 uni200D rawa.med.wide.001 uni1006 uni200D rawa.med.001 uni1007 uni200D rawa.med.001 uni100E uni200D rawa.med.wide.001 uni100F uni200D rawa.med.wide.001 uni1010 uni200D rawa.med.wide.001 uni1011 uni200D rawa.med.001 uni1012 uni200D rawa.med.001 uni1013 uni200D rawa.med.001 uni1014 uni200D rawa.med.001 uni1015 uni200D rawa.med.001 uni1016 uni200D rawa.med.001 uni1017 uni200D rawa.med.wide.001 uni1018 uni200D rawa.med.001 uni1019 uni200D rawa.med.wide.001 uni101A uni200D rawa.med.001 uni101B uni200D rawa.med.wide.001 uni101C uni200D rawa.med.001 uni101D uni200D rawa.med.wide.001 uni101E uni200D rawa.med.wide.001 uni101F uni200D rawa.med.wide.001 uni1021 uni200D rawa.med.001 uni1027 uni200D rawa.med.wide.001 uni103F uni200D rawa.med.001 na.alt uni200D rawa.med.001 ra.alt uni200D rawa.med.wide.001 uni1022 uni200D rawa.med.001 uni1050 uni200D rawa.med.001 uni1051 uni200D rawa.med.001 uni105A uni200D rawa.med.001 uni105C uni200D rawa.med.001 uni1065 uni200D rawa.med.wide.001 uni106E uni200D rawa.med.wide.001 uni106F uni200D rawa.med.wide.001 uni1070 uni200D rawa.med.001 uni1075 uni200D rawa.med.001 uni1076 uni200D rawa.med.001 uni1077 uni200D rawa.med.wide.001 uni1078 uni200D rawa.med.wide.001 uni1079 uni200D rawa.med.wide.001 uni107A uni200D rawa.med.wide.001 uni107B uni200D rawa.med.wide.001 uni107C uni200D rawa.med.wide.001 uni107D uni200D rawa.med.wide.001 uni107E uni200D rawa.med.001 uni107F uni200D rawa.med.wide.001 uni1080 uni200D];
+    sub @clig21' rawa.med.001 uni102E by [rawa.med.wide.001 uni1000 uni200D rawa.med.001 uni1001 uni200D rawa.med.001 uni1002 uni200D rawa.med.wide.001 uni1003 uni200D rawa.med.001 uni1004 uni200D rawa.med.001 uni1005 uni200D rawa.med.wide.001 uni1006 uni200D rawa.med.001 uni1007 uni200D rawa.med.001 uni100E uni200D rawa.med.wide.001 uni100F uni200D rawa.med.wide.001 uni1010 uni200D rawa.med.wide.001 uni1011 uni200D rawa.med.001 uni1012 uni200D rawa.med.001 uni1013 uni200D rawa.med.001 uni1014 uni200D rawa.med.001 uni1015 uni200D rawa.med.001 uni1016 uni200D rawa.med.001 uni1017 uni200D rawa.med.wide.001 uni1018 uni200D rawa.med.001 uni1019 uni200D rawa.med.wide.001 uni101A uni200D rawa.med.001 uni101B uni200D rawa.med.wide.001 uni101C uni200D rawa.med.001 uni101D uni200D rawa.med.wide.001 uni101E uni200D rawa.med.wide.001 uni101F uni200D rawa.med.wide.001 uni1021 uni200D rawa.med.001 uni1027 uni200D rawa.med.wide.001 uni103F uni200D rawa.med.001 na.alt uni200D rawa.med.001 ra.alt uni200D rawa.med.wide.001 uni1022 uni200D rawa.med.001 uni1050 uni200D rawa.med.001 uni1051 uni200D rawa.med.001 uni105A uni200D rawa.med.001 uni105C uni200D rawa.med.001 uni1065 uni200D rawa.med.wide.001 uni106E uni200D rawa.med.wide.001 uni106F uni200D rawa.med.wide.001 uni1070 uni200D rawa.med.001 uni1075 uni200D rawa.med.001 uni1076 uni200D rawa.med.001 uni1077 uni200D rawa.med.wide.001 uni1078 uni200D rawa.med.wide.001 uni1079 uni200D rawa.med.wide.001 uni107A uni200D rawa.med.wide.001 uni107B uni200D rawa.med.wide.001 uni107C uni200D rawa.med.wide.001 uni107D uni200D rawa.med.wide.001 uni107E uni200D rawa.med.001 uni107F uni200D rawa.med.wide.001 uni1080 uni200D];
+    sub @clig21' rawa.med.001 uni1032 by [rawa.med.wide.001 uni1000 uni200D rawa.med.001 uni1001 uni200D rawa.med.001 uni1002 uni200D rawa.med.wide.001 uni1003 uni200D rawa.med.001 uni1004 uni200D rawa.med.001 uni1005 uni200D rawa.med.wide.001 uni1006 uni200D rawa.med.001 uni1007 uni200D rawa.med.001 uni100E uni200D rawa.med.wide.001 uni100F uni200D rawa.med.wide.001 uni1010 uni200D rawa.med.wide.001 uni1011 uni200D rawa.med.001 uni1012 uni200D rawa.med.001 uni1013 uni200D rawa.med.001 uni1014 uni200D rawa.med.001 uni1015 uni200D rawa.med.001 uni1016 uni200D rawa.med.001 uni1017 uni200D rawa.med.wide.001 uni1018 uni200D rawa.med.001 uni1019 uni200D rawa.med.wide.001 uni101A uni200D rawa.med.001 uni101B uni200D rawa.med.wide.001 uni101C uni200D rawa.med.001 uni101D uni200D rawa.med.wide.001 uni101E uni200D rawa.med.wide.001 uni101F uni200D rawa.med.wide.001 uni1021 uni200D rawa.med.001 uni1027 uni200D rawa.med.wide.001 uni103F uni200D rawa.med.001 na.alt uni200D rawa.med.001 ra.alt uni200D rawa.med.wide.001 uni1022 uni200D rawa.med.001 uni1050 uni200D rawa.med.001 uni1051 uni200D rawa.med.001 uni105A uni200D rawa.med.001 uni105C uni200D rawa.med.001 uni1065 uni200D rawa.med.wide.001 uni106E uni200D rawa.med.wide.001 uni106F uni200D rawa.med.wide.001 uni1070 uni200D rawa.med.001 uni1075 uni200D rawa.med.001 uni1076 uni200D rawa.med.001 uni1077 uni200D rawa.med.wide.001 uni1078 uni200D rawa.med.wide.001 uni1079 uni200D rawa.med.wide.001 uni107A uni200D rawa.med.wide.001 uni107B uni200D rawa.med.wide.001 uni107C uni200D rawa.med.wide.001 uni107D uni200D rawa.med.wide.001 uni107E uni200D rawa.med.001 uni107F uni200D rawa.med.wide.001 uni1080 uni200D];
+} clig38;
+lookup clig39 {
+    sub @clig21' rawa.med.001 uni1031 by [.notdef uni1031 rawa.med.wide.001 uni1000 uni200D .notdef uni1031 rawa.med.001 uni1001 uni200D .notdef uni1031 rawa.med.001 uni1002 uni200D .notdef uni1031 rawa.med.wide.001 uni1003 uni200D .notdef uni1031 rawa.med.001 uni1004 uni200D .notdef uni1031 rawa.med.001 uni1005 uni200D .notdef uni1031 rawa.med.wide.001 uni1006 uni200D .notdef uni1031 rawa.med.001 uni1007 uni200D .notdef uni1031 rawa.med.001 uni100E uni200D .notdef uni1031 rawa.med.wide.001 uni100F uni200D .notdef uni1031 rawa.med.wide.001 uni1010 uni200D .notdef uni1031 rawa.med.wide.001 uni1011 uni200D .notdef uni1031 rawa.med.001 uni1012 uni200D .notdef uni1031 rawa.med.001 uni1013 uni200D .notdef uni1031 rawa.med.001 uni1014 uni200D .notdef uni1031 rawa.med.001 uni1015 uni200D .notdef uni1031 rawa.med.001 uni1016 uni200D .notdef uni1031 rawa.med.001 uni1017 uni200D .notdef uni1031 rawa.med.wide.001 uni1018 uni200D .notdef uni1031 rawa.med.001 uni1019 uni200D .notdef uni1031 rawa.med.wide.001 uni101A uni200D .notdef uni1031 rawa.med.001 uni101B uni200D .notdef uni1031 rawa.med.wide.001 uni101C uni200D .notdef uni1031 rawa.med.001 uni101D uni200D .notdef uni1031 rawa.med.wide.001 uni101E uni200D .notdef uni1031 rawa.med.wide.001 uni101F uni200D .notdef uni1031 rawa.med.wide.001 uni1021 uni200D .notdef uni1031 rawa.med.001 uni1027 uni200D .notdef uni1031 rawa.med.wide.001 uni103F uni200D .notdef uni1031 rawa.med.001 na.alt uni200D .notdef uni1031 rawa.med.001 ra.alt uni200D .notdef uni1031 rawa.med.wide.001 uni1022 uni200D .notdef uni1031 rawa.med.001 uni1050 uni200D .notdef uni1031 rawa.med.001 uni1051 uni200D .notdef uni1031 rawa.med.001 uni105A uni200D .notdef uni1031 rawa.med.001 uni105C uni200D .notdef uni1031 rawa.med.001 uni1065 uni200D .notdef uni1031 rawa.med.wide.001 uni106E uni200D .notdef uni1031 rawa.med.wide.001 uni106F uni200D .notdef uni1031 rawa.med.wide.001 uni1070 uni200D .notdef uni1031 rawa.med.001 uni1075 uni200D .notdef uni1031 rawa.med.001 uni1076 uni200D .notdef uni1031 rawa.med.001 uni1077 uni200D .notdef uni1031 rawa.med.wide.001 uni1078 uni200D .notdef uni1031 rawa.med.wide.001 uni1079 uni200D .notdef uni1031 rawa.med.wide.001 uni107A uni200D .notdef uni1031 rawa.med.wide.001 uni107B uni200D .notdef uni1031 rawa.med.wide.001 uni107C uni200D .notdef uni1031 rawa.med.wide.001 uni107D uni200D .notdef uni1031 rawa.med.wide.001 uni107E uni200D .notdef uni1031 rawa.med.001 uni107F uni200D .notdef uni1031 rawa.med.wide.001 uni1080 uni200D];
+} clig39;
+lookup clig41 {
+    sub uni103A' [uni102D uni102E uni103D uni103E] by [uni103B uni001D.001];
+    sub uni103A' u.sig.long uni102D by [uni103B uni001D.001];
+    sub uni103A' [uni102C uni1032 uni1033 uni1034] by [uni103B uni001D.001];
+    sub uni103A' @clig6 @clig19 by [uni103B uni001D.001];
+    sub uni1031 uni1005 uni103A' by [uni103B uni001D.001];
+    sub uni1031 uni1001 uni103A' by [uni103B uni001D.001];
+    sub uni103A' uni1000 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1004 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1005 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1009 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni100A uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1010 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1014 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1015 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni1019 uni1039 by [uni103B uni001D.001];
+    sub uni103A' uni101A uni1039 by [uni103B uni001D.001];
+    sub [ka.sub kha.sub] uni103A' by [uni103B uni001D.001];
+} clig41;
+lookup clig42 {
+    sub @clig3' uni103B uni001D.001 by [uni103A uni1000 uni103A uni1001 uni103A uni1006 uni103A uni1010 uni103A uni1011 uni103A uni1016 uni103A uni1019 uni103A uni1010 uni103A uni1011];
+    sub @clig3' [uni1032 ya.ha.med uni1088 uni1089 uni108A] by [uni103A uni1000 uni103A uni1001 uni103A uni1006 uni103A uni1010 uni103A uni1011 uni103A uni1016 uni103A uni1019 uni103A uni1010 uni103A uni1011];
+    sub @clig3' uni1014 uni1039 by [uni103A uni1000 uni103A uni1001 uni103A uni1006 uni103A uni1010 uni103A uni1011 uni103A uni1016 uni103A uni1019 uni103A uni1010 uni103A uni1011];
+    sub @clig3' uni1019 uni1039 by [uni103A uni1000 uni103A uni1001 uni103A uni1006 uni103A uni1010 uni103A uni1011 uni103A uni1016 uni103A uni1019 uni103A uni1010 uni103A uni1011];
+    sub uni103D na.alt @clig3' by [uni103A uni1000 uni103A uni1001 uni103A uni1006 uni103A uni1010 uni103A uni1011 uni103A uni1016 uni103A uni1019 uni103A uni1010 uni103A uni1011];
+} clig42;
+lookup clig43 {
+    sub na.alt' uni103A by uni1014;
+} clig43;
+lookup clig45 {
+    sub uni101A uni103D' [uni1009 uni1025] by uni103E;
+    sub uni101B uni103D' uni102D by uni103E;
+    sub uni101B uni102D uni103D' by uni103E;
+    sub uni101B uni103D' uni1004 uni1039 by uni103E;
+    sub uni101B uni103D' uni1004 uni1037 by uni103E;
+    sub uni103B uni1019 uni103D' by uni103E;
+    sub uni1019 uni103D' uni102C by uni103E;
+    sub uni108F uni103D' uni1005 uni1039 by uni103E;
+    sub uni108F uni103D' uni1000 uni1039 by uni103E;
+    sub uni108F uni103D' uni1004 uni1039 by uni103E;
+    sub uni108F uni103D' uni1004 uni1037 by uni103E;
+    sub uni101C uni103D' uni100A uni1039 by uni103E;
+    sub uni103D' uni1034 by uni103E;
+} clig45;
+lookup clig46 {
+    sub @clig21' uni103C uni102D by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+    sub @clig21' uni103C uni102E by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+    sub @clig21' uni103C uni1032 by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+    sub @clig21' uni103C ha.med.alt uni102D by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+    sub @clig21' uni103C ha.med.alt uni102E by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+    sub @clig21' uni103C ha.med.alt uni1032 by [ra.med.uppershort.wide uni1000 uni200D ra.med.uppershort uni1001 uni200D ra.med.uppershort uni1002 uni200D ra.med.uppershort.wide uni1003 uni200D ra.med.uppershort uni1004 uni200D ra.med.uppershort uni1005 uni200D ra.med.uppershort.wide uni1006 uni200D ra.med.uppershort uni1007 uni200D ra.med.uppershort uni100E uni200D ra.med.uppershort.wide uni100F uni200D ra.med.uppershort.wide uni1010 uni200D ra.med.uppershort.wide uni1011 uni200D ra.med.uppershort uni1012 uni200D ra.med.uppershort uni1013 uni200D ra.med.uppershort uni1014 uni200D ra.med.uppershort uni1015 uni200D ra.med.uppershort uni1016 uni200D ra.med.uppershort uni1017 uni200D ra.med.uppershort.wide uni1018 uni200D ra.med.uppershort uni1019 uni200D ra.med.uppershort.wide uni101A uni200D ra.med.uppershort uni101B uni200D ra.med.uppershort.wide uni101C uni200D ra.med.uppershort uni101D uni200D ra.med.uppershort.wide uni101E uni200D ra.med.uppershort.wide uni101F uni200D ra.med.uppershort.wide uni1021 uni200D ra.med.uppershort uni1027 uni200D ra.med.uppershort.wide uni103F uni200D ra.med.uppershort na.alt uni200D ra.med.uppershort ra.alt uni200D ra.med.uppershort.wide uni1022 uni200D ra.med.uppershort uni1050 uni200D ra.med.uppershort uni1051 uni200D ra.med.uppershort uni105A uni200D ra.med.uppershort uni105C uni200D ra.med.uppershort uni1065 uni200D ra.med.uppershort.wide uni106E uni200D ra.med.uppershort.wide uni106F uni200D ra.med.uppershort.wide uni1070 uni200D ra.med.uppershort uni1075 uni200D ra.med.uppershort uni1076 uni200D ra.med.uppershort uni1077 uni200D ra.med.uppershort.wide uni1078 uni200D ra.med.uppershort.wide uni1079 uni200D ra.med.uppershort.wide uni107A uni200D ra.med.uppershort.wide uni107B uni200D ra.med.uppershort.wide uni107C uni200D ra.med.uppershort.wide uni107D uni200D ra.med.uppershort.wide uni107E uni200D ra.med.uppershort uni107F uni200D ra.med.uppershort.wide uni1080 uni200D];
+} clig46;
+lookup clig47 {
+    sub @clig21' @clig16 uni103C uni1031 by [.notdef uni1031 ra.med.lowershort1.wide uni1000 uni200D .notdef uni1031 ra.med.lowershort uni1001 uni200D .notdef uni1031 ra.med.lowershort uni1002 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1003 uni200D .notdef uni1031 ra.med.lowershort uni1004 uni200D .notdef uni1031 ra.med.lowershort uni1005 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1006 uni200D .notdef uni1031 ra.med.lowershort uni1007 uni200D .notdef uni1031 ra.med.lowershort uni100E uni200D .notdef uni1031 ra.med.lowershort1.wide uni100F uni200D .notdef uni1031 ra.med.lowershort1.wide uni1010 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1011 uni200D .notdef uni1031 ra.med.lowershort uni1012 uni200D .notdef uni1031 ra.med.lowershort uni1013 uni200D .notdef uni1031 ra.med.lowershort uni1014 uni200D .notdef uni1031 ra.med.lowershort uni1015 uni200D .notdef uni1031 ra.med.lowershort uni1016 uni200D .notdef uni1031 ra.med.lowershort uni1017 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1018 uni200D .notdef uni1031 ra.med.lowershort uni1019 uni200D .notdef uni1031 ra.med.lowershort1.wide uni101A uni200D .notdef uni1031 ra.med.lowershort uni101B uni200D .notdef uni1031 ra.med.lowershort1.wide uni101C uni200D .notdef uni1031 ra.med.lowershort uni101D uni200D .notdef uni1031 ra.med.lowershort1.wide uni101E uni200D .notdef uni1031 ra.med.lowershort1.wide uni101F uni200D .notdef uni1031 ra.med.lowershort1.wide uni1021 uni200D .notdef uni1031 ra.med.lowershort uni1027 uni200D .notdef uni1031 ra.med.lowershort1.wide uni103F uni200D .notdef uni1031 ra.med.lowershort na.alt uni200D .notdef uni1031 ra.med.lowershort ra.alt uni200D .notdef uni1031 ra.med.lowershort1.wide uni1022 uni200D .notdef uni1031 ra.med.lowershort uni1050 uni200D .notdef uni1031 ra.med.lowershort uni1051 uni200D .notdef uni1031 ra.med.lowershort uni105A uni200D .notdef uni1031 ra.med.lowershort uni105C uni200D .notdef uni1031 ra.med.lowershort uni1065 uni200D .notdef uni1031 ra.med.lowershort1.wide uni106E uni200D .notdef uni1031 ra.med.lowershort1.wide uni106F uni200D .notdef uni1031 ra.med.lowershort1.wide uni1070 uni200D .notdef uni1031 ra.med.lowershort uni1075 uni200D .notdef uni1031 ra.med.lowershort uni1076 uni200D .notdef uni1031 ra.med.lowershort uni1077 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1078 uni200D .notdef uni1031 ra.med.lowershort1.wide uni1079 uni200D .notdef uni1031 ra.med.lowershort1.wide uni107A uni200D .notdef uni1031 ra.med.lowershort1.wide uni107B uni200D .notdef uni1031 ra.med.lowershort1.wide uni107C uni200D .notdef uni1031 ra.med.lowershort1.wide uni107D uni200D .notdef uni1031 ra.med.lowershort1.wide uni107E uni200D .notdef uni1031 ra.med.lowershort uni107F uni200D .notdef uni1031 ra.med.lowershort1.wide uni1080 uni200D];
+} clig47;
+lookup clig48 {
+    sub @clig21' @clig16 uni103B uni1031 by [.notdef uni1031 uni1000 .notdef uni1031 uni1001 .notdef uni1031 uni1002 .notdef uni1031 uni1003 .notdef uni1031 uni1004 .notdef uni1031 uni1005 .notdef uni1031 uni1006 .notdef uni1031 uni1007 .notdef uni1031 uni100E .notdef uni1031 uni100F .notdef uni1031 uni1010 .notdef uni1031 uni1011 .notdef uni1031 uni1012 .notdef uni1031 uni1013 .notdef uni1031 uni1014 .notdef uni1031 uni1015 .notdef uni1031 uni1016 .notdef uni1031 uni1017 .notdef uni1031 uni1018 .notdef uni1031 uni1019 .notdef uni1031 uni101A .notdef uni1031 uni101B .notdef uni1031 uni101C .notdef uni1031 uni101D .notdef uni1031 uni101E .notdef uni1031 uni101F .notdef uni1031 uni1021 .notdef uni1031 uni1027 .notdef uni1031 uni103F .notdef uni1031 na.alt .notdef uni1031 ra.alt .notdef uni1031 uni1022 .notdef uni1031 uni1050 .notdef uni1031 uni1051 .notdef uni1031 uni105A .notdef uni1031 uni105C .notdef uni1031 uni1065 .notdef uni1031 uni106E .notdef uni1031 uni106F .notdef uni1031 uni1070 .notdef uni1031 uni1075 .notdef uni1031 uni1076 .notdef uni1031 uni1077 .notdef uni1031 uni1078 .notdef uni1031 uni1079 .notdef uni1031 uni107A .notdef uni1031 uni107B .notdef uni1031 uni107C .notdef uni1031 uni107D .notdef uni1031 uni107E .notdef uni1031 uni107F .notdef uni1031 uni1080];
+} clig48;
+lookup clig49 {
+    sub @clig21' @clig16 uni103C by [ra.med.lowershort1.wide uni1000 uni200D ra.med.lowershort uni1001 uni200D ra.med.lowershort uni1002 uni200D ra.med.lowershort1.wide uni1003 uni200D ra.med.lowershort uni1004 uni200D ra.med.lowershort uni1005 uni200D ra.med.lowershort1.wide uni1006 uni200D ra.med.lowershort uni1007 uni200D ra.med.lowershort uni100E uni200D ra.med.lowershort1.wide uni100F uni200D ra.med.lowershort1.wide uni1010 uni200D ra.med.lowershort1.wide uni1011 uni200D ra.med.lowershort uni1012 uni200D ra.med.lowershort uni1013 uni200D ra.med.lowershort uni1014 uni200D ra.med.lowershort uni1015 uni200D ra.med.lowershort uni1016 uni200D ra.med.lowershort uni1017 uni200D ra.med.lowershort1.wide uni1018 uni200D ra.med.lowershort uni1019 uni200D ra.med.lowershort1.wide uni101A uni200D ra.med.lowershort uni101B uni200D ra.med.lowershort1.wide uni101C uni200D ra.med.lowershort uni101D uni200D ra.med.lowershort1.wide uni101E uni200D ra.med.lowershort1.wide uni101F uni200D ra.med.lowershort1.wide uni1021 uni200D ra.med.lowershort uni1027 uni200D ra.med.lowershort1.wide uni103F uni200D ra.med.lowershort na.alt uni200D ra.med.lowershort ra.alt uni200D ra.med.lowershort1.wide uni1022 uni200D ra.med.lowershort uni1050 uni200D ra.med.lowershort uni1051 uni200D ra.med.lowershort uni105A uni200D ra.med.lowershort uni105C uni200D ra.med.lowershort uni1065 uni200D ra.med.lowershort1.wide uni106E uni200D ra.med.lowershort1.wide uni106F uni200D ra.med.lowershort1.wide uni1070 uni200D ra.med.lowershort uni1075 uni200D ra.med.lowershort uni1076 uni200D ra.med.lowershort uni1077 uni200D ra.med.lowershort1.wide uni1078 uni200D ra.med.lowershort1.wide uni1079 uni200D ra.med.lowershort1.wide uni107A uni200D ra.med.lowershort1.wide uni107B uni200D ra.med.lowershort1.wide uni107C uni200D ra.med.lowershort1.wide uni107D uni200D ra.med.lowershort1.wide uni107E uni200D ra.med.lowershort uni107F uni200D ra.med.lowershort1.wide uni1080 uni200D];
+} clig49;
+lookup clig50 {
+    sub @clig21' uni103C uni1031 by [.notdef uni1031 ra.med.wide uni1000 uni200D .notdef uni1031 uni103C uni1001 uni200D .notdef uni1031 uni103C uni1002 uni200D .notdef uni1031 ra.med.wide uni1003 uni200D .notdef uni1031 uni103C uni1004 uni200D .notdef uni1031 uni103C uni1005 uni200D .notdef uni1031 ra.med.wide uni1006 uni200D .notdef uni1031 uni103C uni1007 uni200D .notdef uni1031 uni103C uni100E uni200D .notdef uni1031 ra.med.wide uni100F uni200D .notdef uni1031 ra.med.wide uni1010 uni200D .notdef uni1031 ra.med.wide uni1011 uni200D .notdef uni1031 uni103C uni1012 uni200D .notdef uni1031 uni103C uni1013 uni200D .notdef uni1031 uni103C uni1014 uni200D .notdef uni1031 uni103C uni1015 uni200D .notdef uni1031 uni103C uni1016 uni200D .notdef uni1031 uni103C uni1017 uni200D .notdef uni1031 ra.med.wide uni1018 uni200D .notdef uni1031 uni103C uni1019 uni200D .notdef uni1031 ra.med.wide uni101A uni200D .notdef uni1031 uni103C uni101B uni200D .notdef uni1031 ra.med.wide uni101C uni200D .notdef uni1031 uni103C uni101D uni200D .notdef uni1031 ra.med.wide uni101E uni200D .notdef uni1031 ra.med.wide uni101F uni200D .notdef uni1031 ra.med.wide uni1021 uni200D .notdef uni1031 uni103C uni1027 uni200D .notdef uni1031 ra.med.wide uni103F uni200D .notdef uni1031 uni103C na.alt uni200D .notdef uni1031 uni103C ra.alt uni200D .notdef uni1031 ra.med.wide uni1022 uni200D .notdef uni1031 uni103C uni1050 uni200D .notdef uni1031 uni103C uni1051 uni200D .notdef uni1031 uni103C uni105A uni200D .notdef uni1031 uni103C uni105C uni200D .notdef uni1031 uni103C uni1065 uni200D .notdef uni1031 ra.med.wide uni106E uni200D .notdef uni1031 ra.med.wide uni106F uni200D .notdef uni1031 ra.med.wide uni1070 uni200D .notdef uni1031 uni103C uni1075 uni200D .notdef uni1031 uni103C uni1076 uni200D .notdef uni1031 uni103C uni1077 uni200D .notdef uni1031 ra.med.wide uni1078 uni200D .notdef uni1031 ra.med.wide uni1079 uni200D .notdef uni1031 ra.med.wide uni107A uni200D .notdef uni1031 ra.med.wide uni107B uni200D .notdef uni1031 ra.med.wide uni107C uni200D .notdef uni1031 ra.med.wide uni107D uni200D .notdef uni1031 ra.med.wide uni107E uni200D .notdef uni1031 uni103C uni107F uni200D .notdef uni1031 ra.med.wide uni1080 uni200D];
+    sub @clig21' uni103C ha.med.alt uni1031 by [.notdef uni1031 ra.med.wide uni1000 uni200D .notdef uni1031 uni103C uni1001 uni200D .notdef uni1031 uni103C uni1002 uni200D .notdef uni1031 ra.med.wide uni1003 uni200D .notdef uni1031 uni103C uni1004 uni200D .notdef uni1031 uni103C uni1005 uni200D .notdef uni1031 ra.med.wide uni1006 uni200D .notdef uni1031 uni103C uni1007 uni200D .notdef uni1031 uni103C uni100E uni200D .notdef uni1031 ra.med.wide uni100F uni200D .notdef uni1031 ra.med.wide uni1010 uni200D .notdef uni1031 ra.med.wide uni1011 uni200D .notdef uni1031 uni103C uni1012 uni200D .notdef uni1031 uni103C uni1013 uni200D .notdef uni1031 uni103C uni1014 uni200D .notdef uni1031 uni103C uni1015 uni200D .notdef uni1031 uni103C uni1016 uni200D .notdef uni1031 uni103C uni1017 uni200D .notdef uni1031 ra.med.wide uni1018 uni200D .notdef uni1031 uni103C uni1019 uni200D .notdef uni1031 ra.med.wide uni101A uni200D .notdef uni1031 uni103C uni101B uni200D .notdef uni1031 ra.med.wide uni101C uni200D .notdef uni1031 uni103C uni101D uni200D .notdef uni1031 ra.med.wide uni101E uni200D .notdef uni1031 ra.med.wide uni101F uni200D .notdef uni1031 ra.med.wide uni1021 uni200D .notdef uni1031 uni103C uni1027 uni200D .notdef uni1031 ra.med.wide uni103F uni200D .notdef uni1031 uni103C na.alt uni200D .notdef uni1031 uni103C ra.alt uni200D .notdef uni1031 ra.med.wide uni1022 uni200D .notdef uni1031 uni103C uni1050 uni200D .notdef uni1031 uni103C uni1051 uni200D .notdef uni1031 uni103C uni105A uni200D .notdef uni1031 uni103C uni105C uni200D .notdef uni1031 uni103C uni1065 uni200D .notdef uni1031 ra.med.wide uni106E uni200D .notdef uni1031 ra.med.wide uni106F uni200D .notdef uni1031 ra.med.wide uni1070 uni200D .notdef uni1031 uni103C uni1075 uni200D .notdef uni1031 uni103C uni1076 uni200D .notdef uni1031 uni103C uni1077 uni200D .notdef uni1031 ra.med.wide uni1078 uni200D .notdef uni1031 ra.med.wide uni1079 uni200D .notdef uni1031 ra.med.wide uni107A uni200D .notdef uni1031 ra.med.wide uni107B uni200D .notdef uni1031 ra.med.wide uni107C uni200D .notdef uni1031 ra.med.wide uni107D uni200D .notdef uni1031 ra.med.wide uni107E uni200D .notdef uni1031 uni103C uni107F uni200D .notdef uni1031 ra.med.wide uni1080 uni200D];
+    sub @clig21' uni103C wa.ha.med uni1031 by [.notdef uni1031 ra.med.wide uni1000 uni200D .notdef uni1031 uni103C uni1001 uni200D .notdef uni1031 uni103C uni1002 uni200D .notdef uni1031 ra.med.wide uni1003 uni200D .notdef uni1031 uni103C uni1004 uni200D .notdef uni1031 uni103C uni1005 uni200D .notdef uni1031 ra.med.wide uni1006 uni200D .notdef uni1031 uni103C uni1007 uni200D .notdef uni1031 uni103C uni100E uni200D .notdef uni1031 ra.med.wide uni100F uni200D .notdef uni1031 ra.med.wide uni1010 uni200D .notdef uni1031 ra.med.wide uni1011 uni200D .notdef uni1031 uni103C uni1012 uni200D .notdef uni1031 uni103C uni1013 uni200D .notdef uni1031 uni103C uni1014 uni200D .notdef uni1031 uni103C uni1015 uni200D .notdef uni1031 uni103C uni1016 uni200D .notdef uni1031 uni103C uni1017 uni200D .notdef uni1031 ra.med.wide uni1018 uni200D .notdef uni1031 uni103C uni1019 uni200D .notdef uni1031 ra.med.wide uni101A uni200D .notdef uni1031 uni103C uni101B uni200D .notdef uni1031 ra.med.wide uni101C uni200D .notdef uni1031 uni103C uni101D uni200D .notdef uni1031 ra.med.wide uni101E uni200D .notdef uni1031 ra.med.wide uni101F uni200D .notdef uni1031 ra.med.wide uni1021 uni200D .notdef uni1031 uni103C uni1027 uni200D .notdef uni1031 ra.med.wide uni103F uni200D .notdef uni1031 uni103C na.alt uni200D .notdef uni1031 uni103C ra.alt uni200D .notdef uni1031 ra.med.wide uni1022 uni200D .notdef uni1031 uni103C uni1050 uni200D .notdef uni1031 uni103C uni1051 uni200D .notdef uni1031 uni103C uni105A uni200D .notdef uni1031 uni103C uni105C uni200D .notdef uni1031 uni103C uni1065 uni200D .notdef uni1031 ra.med.wide uni106E uni200D .notdef uni1031 ra.med.wide uni106F uni200D .notdef uni1031 ra.med.wide uni1070 uni200D .notdef uni1031 uni103C uni1075 uni200D .notdef uni1031 uni103C uni1076 uni200D .notdef uni1031 uni103C uni1077 uni200D .notdef uni1031 ra.med.wide uni1078 uni200D .notdef uni1031 ra.med.wide uni1079 uni200D .notdef uni1031 ra.med.wide uni107A uni200D .notdef uni1031 ra.med.wide uni107B uni200D .notdef uni1031 ra.med.wide uni107C uni200D .notdef uni1031 ra.med.wide uni107D uni200D .notdef uni1031 ra.med.wide uni107E uni200D .notdef uni1031 uni103C uni107F uni200D .notdef uni1031 ra.med.wide uni1080 uni200D];
+} clig50;
+lookup clig51 {
+    sub @clig21' rawa.med.001 by [rawa.med.wide.001 uni1000 uni200D rawa.med.001 uni1001 uni200D rawa.med.001 uni1002 uni200D rawa.med.wide.001 uni1003 uni200D rawa.med.001 uni1004 uni200D rawa.med.001 uni1005 uni200D rawa.med.wide.001 uni1006 uni200D rawa.med.001 uni1007 uni200D rawa.med.001 uni100E uni200D rawa.med.wide.001 uni100F uni200D rawa.med.wide.001 uni1010 uni200D rawa.med.wide.001 uni1011 uni200D rawa.med.001 uni1012 uni200D rawa.med.001 uni1013 uni200D rawa.med.001 uni1014 uni200D rawa.med.001 uni1015 uni200D rawa.med.001 uni1016 uni200D rawa.med.001 uni1017 uni200D rawa.med.wide.001 uni1018 uni200D rawa.med.001 uni1019 uni200D rawa.med.wide.001 uni101A uni200D rawa.med.001 uni101B uni200D rawa.med.wide.001 uni101C uni200D rawa.med.001 uni101D uni200D rawa.med.wide.001 uni101E uni200D rawa.med.wide.001 uni101F uni200D rawa.med.wide.001 uni1021 uni200D rawa.med.001 uni1027 uni200D rawa.med.wide.001 uni103F uni200D rawa.med.001 na.alt uni200D rawa.med.001 ra.alt uni200D rawa.med.wide.001 uni1022 uni200D rawa.med.001 uni1050 uni200D rawa.med.001 uni1051 uni200D rawa.med.001 uni105A uni200D rawa.med.001 uni105C uni200D rawa.med.001 uni1065 uni200D rawa.med.wide.001 uni106E uni200D rawa.med.wide.001 uni106F uni200D rawa.med.wide.001 uni1070 uni200D rawa.med.001 uni1075 uni200D rawa.med.001 uni1076 uni200D rawa.med.001 uni1077 uni200D rawa.med.wide.001 uni1078 uni200D rawa.med.wide.001 uni1079 uni200D rawa.med.wide.001 uni107A uni200D rawa.med.wide.001 uni107B uni200D rawa.med.wide.001 uni107C uni200D rawa.med.wide.001 uni107D uni200D rawa.med.wide.001 uni107E uni200D rawa.med.001 uni107F uni200D rawa.med.wide.001 uni1080 uni200D];
+} clig51;
+lookup clig52 {
+    sub @clig21' uni103C by [ra.med.wide uni1000 uni200D uni103C uni1001 uni200D uni103C uni1002 uni200D ra.med.wide uni1003 uni200D uni103C uni1004 uni200D uni103C uni1005 uni200D ra.med.wide uni1006 uni200D uni103C uni1007 uni200D uni103C uni100E uni200D ra.med.wide uni100F uni200D ra.med.wide uni1010 uni200D ra.med.wide uni1011 uni200D uni103C uni1012 uni200D uni103C uni1013 uni200D uni103C uni1014 uni200D uni103C uni1015 uni200D uni103C uni1016 uni200D uni103C uni1017 uni200D ra.med.wide uni1018 uni200D uni103C uni1019 uni200D ra.med.wide uni101A uni200D uni103C uni101B uni200D ra.med.wide uni101C uni200D uni103C uni101D uni200D ra.med.wide uni101E uni200D ra.med.wide uni101F uni200D ra.med.wide uni1021 uni200D uni103C uni1027 uni200D ra.med.wide uni103F uni200D uni103C na.alt uni200D uni103C ra.alt uni200D ra.med.wide uni1022 uni200D uni103C uni1050 uni200D uni103C uni1051 uni200D uni103C uni105A uni200D uni103C uni105C uni200D uni103C uni1065 uni200D ra.med.wide uni106E uni200D ra.med.wide uni106F uni200D ra.med.wide uni1070 uni200D uni103C uni1075 uni200D uni103C uni1076 uni200D uni103C uni1077 uni200D ra.med.wide uni1078 uni200D ra.med.wide uni1079 uni200D ra.med.wide uni107A uni200D ra.med.wide uni107B uni200D ra.med.wide uni107C uni200D ra.med.wide uni107D uni200D ra.med.wide uni107E uni200D uni103C uni107F uni200D ra.med.wide uni1080 uni200D];
+} clig52;
+lookup clig53 {
+    sub kinzi @clig21' uni1031 by [uni200D uni1031 uni1000 kinzi .notdef uni200D uni1031 uni1001 kinzi .notdef uni200D uni1031 uni1002 kinzi .notdef uni200D uni1031 uni1003 kinzi .notdef uni200D uni1031 uni1004 kinzi .notdef uni200D uni1031 uni1005 kinzi .notdef uni200D uni1031 uni1006 kinzi .notdef uni200D uni1031 uni1007 kinzi .notdef uni200D uni1031 uni100E kinzi .notdef uni200D uni1031 uni100F kinzi .notdef uni200D uni1031 uni1010 kinzi .notdef uni200D uni1031 uni1011 kinzi .notdef uni200D uni1031 uni1012 kinzi .notdef uni200D uni1031 uni1013 kinzi .notdef uni200D uni1031 uni1014 kinzi .notdef uni200D uni1031 uni1015 kinzi .notdef uni200D uni1031 uni1016 kinzi .notdef uni200D uni1031 uni1017 kinzi .notdef uni200D uni1031 uni1018 kinzi .notdef uni200D uni1031 uni1019 kinzi .notdef uni200D uni1031 uni101A kinzi .notdef uni200D uni1031 uni101B kinzi .notdef uni200D uni1031 uni101C kinzi .notdef uni200D uni1031 uni101D kinzi .notdef uni200D uni1031 uni101E kinzi .notdef uni200D uni1031 uni101F kinzi .notdef uni200D uni1031 uni1021 kinzi .notdef uni200D uni1031 uni1027 kinzi .notdef uni200D uni1031 uni103F kinzi .notdef uni200D uni1031 na.alt kinzi .notdef uni200D uni1031 ra.alt kinzi .notdef uni200D uni1031 uni1022 kinzi .notdef uni200D uni1031 uni1050 kinzi .notdef uni200D uni1031 uni1051 kinzi .notdef uni200D uni1031 uni105A kinzi .notdef uni200D uni1031 uni105C kinzi .notdef uni200D uni1031 uni1065 kinzi .notdef uni200D uni1031 uni106E kinzi .notdef uni200D uni1031 uni106F kinzi .notdef uni200D uni1031 uni1070 kinzi .notdef uni200D uni1031 uni1075 kinzi .notdef uni200D uni1031 uni1076 kinzi .notdef uni200D uni1031 uni1077 kinzi .notdef uni200D uni1031 uni1078 kinzi .notdef uni200D uni1031 uni1079 kinzi .notdef uni200D uni1031 uni107A kinzi .notdef uni200D uni1031 uni107B kinzi .notdef uni200D uni1031 uni107C kinzi .notdef uni200D uni1031 uni107D kinzi .notdef uni200D uni1031 uni107E kinzi .notdef uni200D uni1031 uni107F kinzi .notdef uni200D uni1031 uni1080 kinzi .notdef];
+    sub kinzi @clig21' @clig12 uni1031 by [uni200D uni1031 uni1000 kinzi .notdef uni200D uni1031 uni1001 kinzi .notdef uni200D uni1031 uni1002 kinzi .notdef uni200D uni1031 uni1003 kinzi .notdef uni200D uni1031 uni1004 kinzi .notdef uni200D uni1031 uni1005 kinzi .notdef uni200D uni1031 uni1006 kinzi .notdef uni200D uni1031 uni1007 kinzi .notdef uni200D uni1031 uni100E kinzi .notdef uni200D uni1031 uni100F kinzi .notdef uni200D uni1031 uni1010 kinzi .notdef uni200D uni1031 uni1011 kinzi .notdef uni200D uni1031 uni1012 kinzi .notdef uni200D uni1031 uni1013 kinzi .notdef uni200D uni1031 uni1014 kinzi .notdef uni200D uni1031 uni1015 kinzi .notdef uni200D uni1031 uni1016 kinzi .notdef uni200D uni1031 uni1017 kinzi .notdef uni200D uni1031 uni1018 kinzi .notdef uni200D uni1031 uni1019 kinzi .notdef uni200D uni1031 uni101A kinzi .notdef uni200D uni1031 uni101B kinzi .notdef uni200D uni1031 uni101C kinzi .notdef uni200D uni1031 uni101D kinzi .notdef uni200D uni1031 uni101E kinzi .notdef uni200D uni1031 uni101F kinzi .notdef uni200D uni1031 uni1021 kinzi .notdef uni200D uni1031 uni1027 kinzi .notdef uni200D uni1031 uni103F kinzi .notdef uni200D uni1031 na.alt kinzi .notdef uni200D uni1031 ra.alt kinzi .notdef uni200D uni1031 uni1022 kinzi .notdef uni200D uni1031 uni1050 kinzi .notdef uni200D uni1031 uni1051 kinzi .notdef uni200D uni1031 uni105A kinzi .notdef uni200D uni1031 uni105C kinzi .notdef uni200D uni1031 uni1065 kinzi .notdef uni200D uni1031 uni106E kinzi .notdef uni200D uni1031 uni106F kinzi .notdef uni200D uni1031 uni1070 kinzi .notdef uni200D uni1031 uni1075 kinzi .notdef uni200D uni1031 uni1076 kinzi .notdef uni200D uni1031 uni1077 kinzi .notdef uni200D uni1031 uni1078 kinzi .notdef uni200D uni1031 uni1079 kinzi .notdef uni200D uni1031 uni107A kinzi .notdef uni200D uni1031 uni107B kinzi .notdef uni200D uni1031 uni107C kinzi .notdef uni200D uni1031 uni107D kinzi .notdef uni200D uni1031 uni107E kinzi .notdef uni200D uni1031 uni107F kinzi .notdef uni200D uni1031 uni1080 kinzi .notdef];
+} clig53;
+lookup clig54 {
+    sub kinzi @clig21' @clig12 uni102D by [uni200D uni1000 kinzi.i.vow uni200D uni1001 kinzi.i.vow uni200D uni1002 kinzi.i.vow uni200D uni1003 kinzi.i.vow uni200D uni1004 kinzi.i.vow uni200D uni1005 kinzi.i.vow uni200D uni1006 kinzi.i.vow uni200D uni1007 kinzi.i.vow uni200D uni100E kinzi.i.vow uni200D uni100F kinzi.i.vow uni200D uni1010 kinzi.i.vow uni200D uni1011 kinzi.i.vow uni200D uni1012 kinzi.i.vow uni200D uni1013 kinzi.i.vow uni200D uni1014 kinzi.i.vow uni200D uni1015 kinzi.i.vow uni200D uni1016 kinzi.i.vow uni200D uni1017 kinzi.i.vow uni200D uni1018 kinzi.i.vow uni200D uni1019 kinzi.i.vow uni200D uni101A kinzi.i.vow uni200D uni101B kinzi.i.vow uni200D uni101C kinzi.i.vow uni200D uni101D kinzi.i.vow uni200D uni101E kinzi.i.vow uni200D uni101F kinzi.i.vow uni200D uni1021 kinzi.i.vow uni200D uni1027 kinzi.i.vow uni200D uni103F kinzi.i.vow uni200D na.alt kinzi.i.vow uni200D ra.alt kinzi.i.vow uni200D uni1022 kinzi.i.vow uni200D uni1050 kinzi.i.vow uni200D uni1051 kinzi.i.vow uni200D uni105A kinzi.i.vow uni200D uni105C kinzi.i.vow uni200D uni1065 kinzi.i.vow uni200D uni106E kinzi.i.vow uni200D uni106F kinzi.i.vow uni200D uni1070 kinzi.i.vow uni200D uni1075 kinzi.i.vow uni200D uni1076 kinzi.i.vow uni200D uni1077 kinzi.i.vow uni200D uni1078 kinzi.i.vow uni200D uni1079 kinzi.i.vow uni200D uni107A kinzi.i.vow uni200D uni107B kinzi.i.vow uni200D uni107C kinzi.i.vow uni200D uni107D kinzi.i.vow uni200D uni107E kinzi.i.vow uni200D uni107F kinzi.i.vow uni200D uni1080 kinzi.i.vow];
+    sub kinzi @clig21' @clig16 uni102D by [uni200D uni1000 kinzi.i.vow uni200D uni1001 kinzi.i.vow uni200D uni1002 kinzi.i.vow uni200D uni1003 kinzi.i.vow uni200D uni1004 kinzi.i.vow uni200D uni1005 kinzi.i.vow uni200D uni1006 kinzi.i.vow uni200D uni1007 kinzi.i.vow uni200D uni100E kinzi.i.vow uni200D uni100F kinzi.i.vow uni200D uni1010 kinzi.i.vow uni200D uni1011 kinzi.i.vow uni200D uni1012 kinzi.i.vow uni200D uni1013 kinzi.i.vow uni200D uni1014 kinzi.i.vow uni200D uni1015 kinzi.i.vow uni200D uni1016 kinzi.i.vow uni200D uni1017 kinzi.i.vow uni200D uni1018 kinzi.i.vow uni200D uni1019 kinzi.i.vow uni200D uni101A kinzi.i.vow uni200D uni101B kinzi.i.vow uni200D uni101C kinzi.i.vow uni200D uni101D kinzi.i.vow uni200D uni101E kinzi.i.vow uni200D uni101F kinzi.i.vow uni200D uni1021 kinzi.i.vow uni200D uni1027 kinzi.i.vow uni200D uni103F kinzi.i.vow uni200D na.alt kinzi.i.vow uni200D ra.alt kinzi.i.vow uni200D uni1022 kinzi.i.vow uni200D uni1050 kinzi.i.vow uni200D uni1051 kinzi.i.vow uni200D uni105A kinzi.i.vow uni200D uni105C kinzi.i.vow uni200D uni1065 kinzi.i.vow uni200D uni106E kinzi.i.vow uni200D uni106F kinzi.i.vow uni200D uni1070 kinzi.i.vow uni200D uni1075 kinzi.i.vow uni200D uni1076 kinzi.i.vow uni200D uni1077 kinzi.i.vow uni200D uni1078 kinzi.i.vow uni200D uni1079 kinzi.i.vow uni200D uni107A kinzi.i.vow uni200D uni107B kinzi.i.vow uni200D uni107C kinzi.i.vow uni200D uni107D kinzi.i.vow uni200D uni107E kinzi.i.vow uni200D uni107F kinzi.i.vow uni200D uni1080 kinzi.i.vow];
+    sub kinzi @clig21' uni102D by [uni200D uni1000 kinzi.i.vow uni200D uni1001 kinzi.i.vow uni200D uni1002 kinzi.i.vow uni200D uni1003 kinzi.i.vow uni200D uni1004 kinzi.i.vow uni200D uni1005 kinzi.i.vow uni200D uni1006 kinzi.i.vow uni200D uni1007 kinzi.i.vow uni200D uni100E kinzi.i.vow uni200D uni100F kinzi.i.vow uni200D uni1010 kinzi.i.vow uni200D uni1011 kinzi.i.vow uni200D uni1012 kinzi.i.vow uni200D uni1013 kinzi.i.vow uni200D uni1014 kinzi.i.vow uni200D uni1015 kinzi.i.vow uni200D uni1016 kinzi.i.vow uni200D uni1017 kinzi.i.vow uni200D uni1018 kinzi.i.vow uni200D uni1019 kinzi.i.vow uni200D uni101A kinzi.i.vow uni200D uni101B kinzi.i.vow uni200D uni101C kinzi.i.vow uni200D uni101D kinzi.i.vow uni200D uni101E kinzi.i.vow uni200D uni101F kinzi.i.vow uni200D uni1021 kinzi.i.vow uni200D uni1027 kinzi.i.vow uni200D uni103F kinzi.i.vow uni200D na.alt kinzi.i.vow uni200D ra.alt kinzi.i.vow uni200D uni1022 kinzi.i.vow uni200D uni1050 kinzi.i.vow uni200D uni1051 kinzi.i.vow uni200D uni105A kinzi.i.vow uni200D uni105C kinzi.i.vow uni200D uni1065 kinzi.i.vow uni200D uni106E kinzi.i.vow uni200D uni106F kinzi.i.vow uni200D uni1070 kinzi.i.vow uni200D uni1075 kinzi.i.vow uni200D uni1076 kinzi.i.vow uni200D uni1077 kinzi.i.vow uni200D uni1078 kinzi.i.vow uni200D uni1079 kinzi.i.vow uni200D uni107A kinzi.i.vow uni200D uni107B kinzi.i.vow uni200D uni107C kinzi.i.vow uni200D uni107D kinzi.i.vow uni200D uni107E kinzi.i.vow uni200D uni107F kinzi.i.vow uni200D uni1080 kinzi.i.vow];
+} clig54;
+lookup clig55 {
+    sub ra.kinzi @clig21' @clig12 uni102D by [uni200D uni1000 ra.kinzi.i uni200D uni1001 ra.kinzi.i uni200D uni1002 ra.kinzi.i uni200D uni1003 ra.kinzi.i uni200D uni1004 ra.kinzi.i uni200D uni1005 ra.kinzi.i uni200D uni1006 ra.kinzi.i uni200D uni1007 ra.kinzi.i uni200D uni100E ra.kinzi.i uni200D uni100F ra.kinzi.i uni200D uni1010 ra.kinzi.i uni200D uni1011 ra.kinzi.i uni200D uni1012 ra.kinzi.i uni200D uni1013 ra.kinzi.i uni200D uni1014 ra.kinzi.i uni200D uni1015 ra.kinzi.i uni200D uni1016 ra.kinzi.i uni200D uni1017 ra.kinzi.i uni200D uni1018 ra.kinzi.i uni200D uni1019 ra.kinzi.i uni200D uni101A ra.kinzi.i uni200D uni101B ra.kinzi.i uni200D uni101C ra.kinzi.i uni200D uni101D ra.kinzi.i uni200D uni101E ra.kinzi.i uni200D uni101F ra.kinzi.i uni200D uni1021 ra.kinzi.i uni200D uni1027 ra.kinzi.i uni200D uni103F ra.kinzi.i uni200D na.alt ra.kinzi.i uni200D ra.alt ra.kinzi.i uni200D uni1022 ra.kinzi.i uni200D uni1050 ra.kinzi.i uni200D uni1051 ra.kinzi.i uni200D uni105A ra.kinzi.i uni200D uni105C ra.kinzi.i uni200D uni1065 ra.kinzi.i uni200D uni106E ra.kinzi.i uni200D uni106F ra.kinzi.i uni200D uni1070 ra.kinzi.i uni200D uni1075 ra.kinzi.i uni200D uni1076 ra.kinzi.i uni200D uni1077 ra.kinzi.i uni200D uni1078 ra.kinzi.i uni200D uni1079 ra.kinzi.i uni200D uni107A ra.kinzi.i uni200D uni107B ra.kinzi.i uni200D uni107C ra.kinzi.i uni200D uni107D ra.kinzi.i uni200D uni107E ra.kinzi.i uni200D uni107F ra.kinzi.i uni200D uni1080 ra.kinzi.i];
+    sub ra.kinzi @clig21' uni102D by [uni200D uni1000 ra.kinzi.i uni200D uni1001 ra.kinzi.i uni200D uni1002 ra.kinzi.i uni200D uni1003 ra.kinzi.i uni200D uni1004 ra.kinzi.i uni200D uni1005 ra.kinzi.i uni200D uni1006 ra.kinzi.i uni200D uni1007 ra.kinzi.i uni200D uni100E ra.kinzi.i uni200D uni100F ra.kinzi.i uni200D uni1010 ra.kinzi.i uni200D uni1011 ra.kinzi.i uni200D uni1012 ra.kinzi.i uni200D uni1013 ra.kinzi.i uni200D uni1014 ra.kinzi.i uni200D uni1015 ra.kinzi.i uni200D uni1016 ra.kinzi.i uni200D uni1017 ra.kinzi.i uni200D uni1018 ra.kinzi.i uni200D uni1019 ra.kinzi.i uni200D uni101A ra.kinzi.i uni200D uni101B ra.kinzi.i uni200D uni101C ra.kinzi.i uni200D uni101D ra.kinzi.i uni200D uni101E ra.kinzi.i uni200D uni101F ra.kinzi.i uni200D uni1021 ra.kinzi.i uni200D uni1027 ra.kinzi.i uni200D uni103F ra.kinzi.i uni200D na.alt ra.kinzi.i uni200D ra.alt ra.kinzi.i uni200D uni1022 ra.kinzi.i uni200D uni1050 ra.kinzi.i uni200D uni1051 ra.kinzi.i uni200D uni105A ra.kinzi.i uni200D uni105C ra.kinzi.i uni200D uni1065 ra.kinzi.i uni200D uni106E ra.kinzi.i uni200D uni106F ra.kinzi.i uni200D uni1070 ra.kinzi.i uni200D uni1075 ra.kinzi.i uni200D uni1076 ra.kinzi.i uni200D uni1077 ra.kinzi.i uni200D uni1078 ra.kinzi.i uni200D uni1079 ra.kinzi.i uni200D uni107A ra.kinzi.i uni200D uni107B ra.kinzi.i uni200D uni107C ra.kinzi.i uni200D uni107D ra.kinzi.i uni200D uni107E ra.kinzi.i uni200D uni107F ra.kinzi.i uni200D uni1080 ra.kinzi.i];
+} clig55;
+lookup clig56 {
+    sub kinzi @clig21' uni102E by [uni200D uni1000 kinzi.ii.vow uni200D uni1001 kinzi.ii.vow uni200D uni1002 kinzi.ii.vow uni200D uni1003 kinzi.ii.vow uni200D uni1004 kinzi.ii.vow uni200D uni1005 kinzi.ii.vow uni200D uni1006 kinzi.ii.vow uni200D uni1007 kinzi.ii.vow uni200D uni100E kinzi.ii.vow uni200D uni100F kinzi.ii.vow uni200D uni1010 kinzi.ii.vow uni200D uni1011 kinzi.ii.vow uni200D uni1012 kinzi.ii.vow uni200D uni1013 kinzi.ii.vow uni200D uni1014 kinzi.ii.vow uni200D uni1015 kinzi.ii.vow uni200D uni1016 kinzi.ii.vow uni200D uni1017 kinzi.ii.vow uni200D uni1018 kinzi.ii.vow uni200D uni1019 kinzi.ii.vow uni200D uni101A kinzi.ii.vow uni200D uni101B kinzi.ii.vow uni200D uni101C kinzi.ii.vow uni200D uni101D kinzi.ii.vow uni200D uni101E kinzi.ii.vow uni200D uni101F kinzi.ii.vow uni200D uni1021 kinzi.ii.vow uni200D uni1027 kinzi.ii.vow uni200D uni103F kinzi.ii.vow uni200D na.alt kinzi.ii.vow uni200D ra.alt kinzi.ii.vow uni200D uni1022 kinzi.ii.vow uni200D uni1050 kinzi.ii.vow uni200D uni1051 kinzi.ii.vow uni200D uni105A kinzi.ii.vow uni200D uni105C kinzi.ii.vow uni200D uni1065 kinzi.ii.vow uni200D uni106E kinzi.ii.vow uni200D uni106F kinzi.ii.vow uni200D uni1070 kinzi.ii.vow uni200D uni1075 kinzi.ii.vow uni200D uni1076 kinzi.ii.vow uni200D uni1077 kinzi.ii.vow uni200D uni1078 kinzi.ii.vow uni200D uni1079 kinzi.ii.vow uni200D uni107A kinzi.ii.vow uni200D uni107B kinzi.ii.vow uni200D uni107C kinzi.ii.vow uni200D uni107D kinzi.ii.vow uni200D uni107E kinzi.ii.vow uni200D uni107F kinzi.ii.vow uni200D uni1080 kinzi.ii.vow];
+    sub kinzi @clig21' @clig12 uni102E by [uni200D uni1000 kinzi.ii.vow uni200D uni1001 kinzi.ii.vow uni200D uni1002 kinzi.ii.vow uni200D uni1003 kinzi.ii.vow uni200D uni1004 kinzi.ii.vow uni200D uni1005 kinzi.ii.vow uni200D uni1006 kinzi.ii.vow uni200D uni1007 kinzi.ii.vow uni200D uni100E kinzi.ii.vow uni200D uni100F kinzi.ii.vow uni200D uni1010 kinzi.ii.vow uni200D uni1011 kinzi.ii.vow uni200D uni1012 kinzi.ii.vow uni200D uni1013 kinzi.ii.vow uni200D uni1014 kinzi.ii.vow uni200D uni1015 kinzi.ii.vow uni200D uni1016 kinzi.ii.vow uni200D uni1017 kinzi.ii.vow uni200D uni1018 kinzi.ii.vow uni200D uni1019 kinzi.ii.vow uni200D uni101A kinzi.ii.vow uni200D uni101B kinzi.ii.vow uni200D uni101C kinzi.ii.vow uni200D uni101D kinzi.ii.vow uni200D uni101E kinzi.ii.vow uni200D uni101F kinzi.ii.vow uni200D uni1021 kinzi.ii.vow uni200D uni1027 kinzi.ii.vow uni200D uni103F kinzi.ii.vow uni200D na.alt kinzi.ii.vow uni200D ra.alt kinzi.ii.vow uni200D uni1022 kinzi.ii.vow uni200D uni1050 kinzi.ii.vow uni200D uni1051 kinzi.ii.vow uni200D uni105A kinzi.ii.vow uni200D uni105C kinzi.ii.vow uni200D uni1065 kinzi.ii.vow uni200D uni106E kinzi.ii.vow uni200D uni106F kinzi.ii.vow uni200D uni1070 kinzi.ii.vow uni200D uni1075 kinzi.ii.vow uni200D uni1076 kinzi.ii.vow uni200D uni1077 kinzi.ii.vow uni200D uni1078 kinzi.ii.vow uni200D uni1079 kinzi.ii.vow uni200D uni107A kinzi.ii.vow uni200D uni107B kinzi.ii.vow uni200D uni107C kinzi.ii.vow uni200D uni107D kinzi.ii.vow uni200D uni107E kinzi.ii.vow uni200D uni107F kinzi.ii.vow uni200D uni1080 kinzi.ii.vow];
+    sub kinzi @clig21' @clig16 uni102E by [uni200D uni1000 kinzi.ii.vow uni200D uni1001 kinzi.ii.vow uni200D uni1002 kinzi.ii.vow uni200D uni1003 kinzi.ii.vow uni200D uni1004 kinzi.ii.vow uni200D uni1005 kinzi.ii.vow uni200D uni1006 kinzi.ii.vow uni200D uni1007 kinzi.ii.vow uni200D uni100E kinzi.ii.vow uni200D uni100F kinzi.ii.vow uni200D uni1010 kinzi.ii.vow uni200D uni1011 kinzi.ii.vow uni200D uni1012 kinzi.ii.vow uni200D uni1013 kinzi.ii.vow uni200D uni1014 kinzi.ii.vow uni200D uni1015 kinzi.ii.vow uni200D uni1016 kinzi.ii.vow uni200D uni1017 kinzi.ii.vow uni200D uni1018 kinzi.ii.vow uni200D uni1019 kinzi.ii.vow uni200D uni101A kinzi.ii.vow uni200D uni101B kinzi.ii.vow uni200D uni101C kinzi.ii.vow uni200D uni101D kinzi.ii.vow uni200D uni101E kinzi.ii.vow uni200D uni101F kinzi.ii.vow uni200D uni1021 kinzi.ii.vow uni200D uni1027 kinzi.ii.vow uni200D uni103F kinzi.ii.vow uni200D na.alt kinzi.ii.vow uni200D ra.alt kinzi.ii.vow uni200D uni1022 kinzi.ii.vow uni200D uni1050 kinzi.ii.vow uni200D uni1051 kinzi.ii.vow uni200D uni105A kinzi.ii.vow uni200D uni105C kinzi.ii.vow uni200D uni1065 kinzi.ii.vow uni200D uni106E kinzi.ii.vow uni200D uni106F kinzi.ii.vow uni200D uni1070 kinzi.ii.vow uni200D uni1075 kinzi.ii.vow uni200D uni1076 kinzi.ii.vow uni200D uni1077 kinzi.ii.vow uni200D uni1078 kinzi.ii.vow uni200D uni1079 kinzi.ii.vow uni200D uni107A kinzi.ii.vow uni200D uni107B kinzi.ii.vow uni200D uni107C kinzi.ii.vow uni200D uni107D kinzi.ii.vow uni200D uni107E kinzi.ii.vow uni200D uni107F kinzi.ii.vow uni200D uni1080 kinzi.ii.vow];
+} clig56;
+lookup clig57 {
+    sub ra.kinzi @clig21' @clig12 uni102E by [uni200D uni1000 ra.kinzi.ii uni200D uni1001 ra.kinzi.ii uni200D uni1002 ra.kinzi.ii uni200D uni1003 ra.kinzi.ii uni200D uni1004 ra.kinzi.ii uni200D uni1005 ra.kinzi.ii uni200D uni1006 ra.kinzi.ii uni200D uni1007 ra.kinzi.ii uni200D uni100E ra.kinzi.ii uni200D uni100F ra.kinzi.ii uni200D uni1010 ra.kinzi.ii uni200D uni1011 ra.kinzi.ii uni200D uni1012 ra.kinzi.ii uni200D uni1013 ra.kinzi.ii uni200D uni1014 ra.kinzi.ii uni200D uni1015 ra.kinzi.ii uni200D uni1016 ra.kinzi.ii uni200D uni1017 ra.kinzi.ii uni200D uni1018 ra.kinzi.ii uni200D uni1019 ra.kinzi.ii uni200D uni101A ra.kinzi.ii uni200D uni101B ra.kinzi.ii uni200D uni101C ra.kinzi.ii uni200D uni101D ra.kinzi.ii uni200D uni101E ra.kinzi.ii uni200D uni101F ra.kinzi.ii uni200D uni1021 ra.kinzi.ii uni200D uni1027 ra.kinzi.ii uni200D uni103F ra.kinzi.ii uni200D na.alt ra.kinzi.ii uni200D ra.alt ra.kinzi.ii uni200D uni1022 ra.kinzi.ii uni200D uni1050 ra.kinzi.ii uni200D uni1051 ra.kinzi.ii uni200D uni105A ra.kinzi.ii uni200D uni105C ra.kinzi.ii uni200D uni1065 ra.kinzi.ii uni200D uni106E ra.kinzi.ii uni200D uni106F ra.kinzi.ii uni200D uni1070 ra.kinzi.ii uni200D uni1075 ra.kinzi.ii uni200D uni1076 ra.kinzi.ii uni200D uni1077 ra.kinzi.ii uni200D uni1078 ra.kinzi.ii uni200D uni1079 ra.kinzi.ii uni200D uni107A ra.kinzi.ii uni200D uni107B ra.kinzi.ii uni200D uni107C ra.kinzi.ii uni200D uni107D ra.kinzi.ii uni200D uni107E ra.kinzi.ii uni200D uni107F ra.kinzi.ii uni200D uni1080 ra.kinzi.ii];
+    sub ra.kinzi @clig21' uni102E by [uni200D uni1000 ra.kinzi.ii uni200D uni1001 ra.kinzi.ii uni200D uni1002 ra.kinzi.ii uni200D uni1003 ra.kinzi.ii uni200D uni1004 ra.kinzi.ii uni200D uni1005 ra.kinzi.ii uni200D uni1006 ra.kinzi.ii uni200D uni1007 ra.kinzi.ii uni200D uni100E ra.kinzi.ii uni200D uni100F ra.kinzi.ii uni200D uni1010 ra.kinzi.ii uni200D uni1011 ra.kinzi.ii uni200D uni1012 ra.kinzi.ii uni200D uni1013 ra.kinzi.ii uni200D uni1014 ra.kinzi.ii uni200D uni1015 ra.kinzi.ii uni200D uni1016 ra.kinzi.ii uni200D uni1017 ra.kinzi.ii uni200D uni1018 ra.kinzi.ii uni200D uni1019 ra.kinzi.ii uni200D uni101A ra.kinzi.ii uni200D uni101B ra.kinzi.ii uni200D uni101C ra.kinzi.ii uni200D uni101D ra.kinzi.ii uni200D uni101E ra.kinzi.ii uni200D uni101F ra.kinzi.ii uni200D uni1021 ra.kinzi.ii uni200D uni1027 ra.kinzi.ii uni200D uni103F ra.kinzi.ii uni200D na.alt ra.kinzi.ii uni200D ra.alt ra.kinzi.ii uni200D uni1022 ra.kinzi.ii uni200D uni1050 ra.kinzi.ii uni200D uni1051 ra.kinzi.ii uni200D uni105A ra.kinzi.ii uni200D uni105C ra.kinzi.ii uni200D uni1065 ra.kinzi.ii uni200D uni106E ra.kinzi.ii uni200D uni106F ra.kinzi.ii uni200D uni1070 ra.kinzi.ii uni200D uni1075 ra.kinzi.ii uni200D uni1076 ra.kinzi.ii uni200D uni1077 ra.kinzi.ii uni200D uni1078 ra.kinzi.ii uni200D uni1079 ra.kinzi.ii uni200D uni107A ra.kinzi.ii uni200D uni107B ra.kinzi.ii uni200D uni107C ra.kinzi.ii uni200D uni107D ra.kinzi.ii uni200D uni107E ra.kinzi.ii uni200D uni107F ra.kinzi.ii uni200D uni1080 ra.kinzi.ii];
+} clig57;
+lookup clig58 {
+    sub kinzi @clig21' @clig12 uni1032 by [uni200D uni1000 kinzi.ai.vow uni200D uni1001 kinzi.ai.vow uni200D uni1002 kinzi.ai.vow uni200D uni1003 kinzi.ai.vow uni200D uni1004 kinzi.ai.vow uni200D uni1005 kinzi.ai.vow uni200D uni1006 kinzi.ai.vow uni200D uni1007 kinzi.ai.vow uni200D uni100E kinzi.ai.vow uni200D uni100F kinzi.ai.vow uni200D uni1010 kinzi.ai.vow uni200D uni1011 kinzi.ai.vow uni200D uni1012 kinzi.ai.vow uni200D uni1013 kinzi.ai.vow uni200D uni1014 kinzi.ai.vow uni200D uni1015 kinzi.ai.vow uni200D uni1016 kinzi.ai.vow uni200D uni1017 kinzi.ai.vow uni200D uni1018 kinzi.ai.vow uni200D uni1019 kinzi.ai.vow uni200D uni101A kinzi.ai.vow uni200D uni101B kinzi.ai.vow uni200D uni101C kinzi.ai.vow uni200D uni101D kinzi.ai.vow uni200D uni101E kinzi.ai.vow uni200D uni101F kinzi.ai.vow uni200D uni1021 kinzi.ai.vow uni200D uni1027 kinzi.ai.vow uni200D uni103F kinzi.ai.vow uni200D na.alt kinzi.ai.vow uni200D ra.alt kinzi.ai.vow uni200D uni1022 kinzi.ai.vow uni200D uni1050 kinzi.ai.vow uni200D uni1051 kinzi.ai.vow uni200D uni105A kinzi.ai.vow uni200D uni105C kinzi.ai.vow uni200D uni1065 kinzi.ai.vow uni200D uni106E kinzi.ai.vow uni200D uni106F kinzi.ai.vow uni200D uni1070 kinzi.ai.vow uni200D uni1075 kinzi.ai.vow uni200D uni1076 kinzi.ai.vow uni200D uni1077 kinzi.ai.vow uni200D uni1078 kinzi.ai.vow uni200D uni1079 kinzi.ai.vow uni200D uni107A kinzi.ai.vow uni200D uni107B kinzi.ai.vow uni200D uni107C kinzi.ai.vow uni200D uni107D kinzi.ai.vow uni200D uni107E kinzi.ai.vow uni200D uni107F kinzi.ai.vow uni200D uni1080 kinzi.ai.vow];
+    sub kinzi @clig21' uni1032 by [uni200D uni1000 kinzi.ai.vow uni200D uni1001 kinzi.ai.vow uni200D uni1002 kinzi.ai.vow uni200D uni1003 kinzi.ai.vow uni200D uni1004 kinzi.ai.vow uni200D uni1005 kinzi.ai.vow uni200D uni1006 kinzi.ai.vow uni200D uni1007 kinzi.ai.vow uni200D uni100E kinzi.ai.vow uni200D uni100F kinzi.ai.vow uni200D uni1010 kinzi.ai.vow uni200D uni1011 kinzi.ai.vow uni200D uni1012 kinzi.ai.vow uni200D uni1013 kinzi.ai.vow uni200D uni1014 kinzi.ai.vow uni200D uni1015 kinzi.ai.vow uni200D uni1016 kinzi.ai.vow uni200D uni1017 kinzi.ai.vow uni200D uni1018 kinzi.ai.vow uni200D uni1019 kinzi.ai.vow uni200D uni101A kinzi.ai.vow uni200D uni101B kinzi.ai.vow uni200D uni101C kinzi.ai.vow uni200D uni101D kinzi.ai.vow uni200D uni101E kinzi.ai.vow uni200D uni101F kinzi.ai.vow uni200D uni1021 kinzi.ai.vow uni200D uni1027 kinzi.ai.vow uni200D uni103F kinzi.ai.vow uni200D na.alt kinzi.ai.vow uni200D ra.alt kinzi.ai.vow uni200D uni1022 kinzi.ai.vow uni200D uni1050 kinzi.ai.vow uni200D uni1051 kinzi.ai.vow uni200D uni105A kinzi.ai.vow uni200D uni105C kinzi.ai.vow uni200D uni1065 kinzi.ai.vow uni200D uni106E kinzi.ai.vow uni200D uni106F kinzi.ai.vow uni200D uni1070 kinzi.ai.vow uni200D uni1075 kinzi.ai.vow uni200D uni1076 kinzi.ai.vow uni200D uni1077 kinzi.ai.vow uni200D uni1078 kinzi.ai.vow uni200D uni1079 kinzi.ai.vow uni200D uni107A kinzi.ai.vow uni200D uni107B kinzi.ai.vow uni200D uni107C kinzi.ai.vow uni200D uni107D kinzi.ai.vow uni200D uni107E kinzi.ai.vow uni200D uni107F kinzi.ai.vow uni200D uni1080 kinzi.ai.vow];
+} clig58;
+lookup clig59 {
+    sub kinzi @clig21' @clig12 uni1033 by [uni200D uni1000 kinzi.ii.mon uni200D uni1001 kinzi.ii.mon uni200D uni1002 kinzi.ii.mon uni200D uni1003 kinzi.ii.mon uni200D uni1004 kinzi.ii.mon uni200D uni1005 kinzi.ii.mon uni200D uni1006 kinzi.ii.mon uni200D uni1007 kinzi.ii.mon uni200D uni100E kinzi.ii.mon uni200D uni100F kinzi.ii.mon uni200D uni1010 kinzi.ii.mon uni200D uni1011 kinzi.ii.mon uni200D uni1012 kinzi.ii.mon uni200D uni1013 kinzi.ii.mon uni200D uni1014 kinzi.ii.mon uni200D uni1015 kinzi.ii.mon uni200D uni1016 kinzi.ii.mon uni200D uni1017 kinzi.ii.mon uni200D uni1018 kinzi.ii.mon uni200D uni1019 kinzi.ii.mon uni200D uni101A kinzi.ii.mon uni200D uni101B kinzi.ii.mon uni200D uni101C kinzi.ii.mon uni200D uni101D kinzi.ii.mon uni200D uni101E kinzi.ii.mon uni200D uni101F kinzi.ii.mon uni200D uni1021 kinzi.ii.mon uni200D uni1027 kinzi.ii.mon uni200D uni103F kinzi.ii.mon uni200D na.alt kinzi.ii.mon uni200D ra.alt kinzi.ii.mon uni200D uni1022 kinzi.ii.mon uni200D uni1050 kinzi.ii.mon uni200D uni1051 kinzi.ii.mon uni200D uni105A kinzi.ii.mon uni200D uni105C kinzi.ii.mon uni200D uni1065 kinzi.ii.mon uni200D uni106E kinzi.ii.mon uni200D uni106F kinzi.ii.mon uni200D uni1070 kinzi.ii.mon uni200D uni1075 kinzi.ii.mon uni200D uni1076 kinzi.ii.mon uni200D uni1077 kinzi.ii.mon uni200D uni1078 kinzi.ii.mon uni200D uni1079 kinzi.ii.mon uni200D uni107A kinzi.ii.mon uni200D uni107B kinzi.ii.mon uni200D uni107C kinzi.ii.mon uni200D uni107D kinzi.ii.mon uni200D uni107E kinzi.ii.mon uni200D uni107F kinzi.ii.mon uni200D uni1080 kinzi.ii.mon];
+    sub kinzi @clig21' uni1033 by [uni200D uni1000 kinzi.ii.mon uni200D uni1001 kinzi.ii.mon uni200D uni1002 kinzi.ii.mon uni200D uni1003 kinzi.ii.mon uni200D uni1004 kinzi.ii.mon uni200D uni1005 kinzi.ii.mon uni200D uni1006 kinzi.ii.mon uni200D uni1007 kinzi.ii.mon uni200D uni100E kinzi.ii.mon uni200D uni100F kinzi.ii.mon uni200D uni1010 kinzi.ii.mon uni200D uni1011 kinzi.ii.mon uni200D uni1012 kinzi.ii.mon uni200D uni1013 kinzi.ii.mon uni200D uni1014 kinzi.ii.mon uni200D uni1015 kinzi.ii.mon uni200D uni1016 kinzi.ii.mon uni200D uni1017 kinzi.ii.mon uni200D uni1018 kinzi.ii.mon uni200D uni1019 kinzi.ii.mon uni200D uni101A kinzi.ii.mon uni200D uni101B kinzi.ii.mon uni200D uni101C kinzi.ii.mon uni200D uni101D kinzi.ii.mon uni200D uni101E kinzi.ii.mon uni200D uni101F kinzi.ii.mon uni200D uni1021 kinzi.ii.mon uni200D uni1027 kinzi.ii.mon uni200D uni103F kinzi.ii.mon uni200D na.alt kinzi.ii.mon uni200D ra.alt kinzi.ii.mon uni200D uni1022 kinzi.ii.mon uni200D uni1050 kinzi.ii.mon uni200D uni1051 kinzi.ii.mon uni200D uni105A kinzi.ii.mon uni200D uni105C kinzi.ii.mon uni200D uni1065 kinzi.ii.mon uni200D uni106E kinzi.ii.mon uni200D uni106F kinzi.ii.mon uni200D uni1070 kinzi.ii.mon uni200D uni1075 kinzi.ii.mon uni200D uni1076 kinzi.ii.mon uni200D uni1077 kinzi.ii.mon uni200D uni1078 kinzi.ii.mon uni200D uni1079 kinzi.ii.mon uni200D uni107A kinzi.ii.mon uni200D uni107B kinzi.ii.mon uni200D uni107C kinzi.ii.mon uni200D uni107D kinzi.ii.mon uni200D uni107E kinzi.ii.mon uni200D uni107F kinzi.ii.mon uni200D uni1080 kinzi.ii.mon];
+} clig59;
+lookup clig60 {
+    sub kinzi @clig21' @clig12 uni1035 by [uni200D uni1000 kinzi.eabove uni200D uni1001 kinzi.eabove uni200D uni1002 kinzi.eabove uni200D uni1003 kinzi.eabove uni200D uni1004 kinzi.eabove uni200D uni1005 kinzi.eabove uni200D uni1006 kinzi.eabove uni200D uni1007 kinzi.eabove uni200D uni100E kinzi.eabove uni200D uni100F kinzi.eabove uni200D uni1010 kinzi.eabove uni200D uni1011 kinzi.eabove uni200D uni1012 kinzi.eabove uni200D uni1013 kinzi.eabove uni200D uni1014 kinzi.eabove uni200D uni1015 kinzi.eabove uni200D uni1016 kinzi.eabove uni200D uni1017 kinzi.eabove uni200D uni1018 kinzi.eabove uni200D uni1019 kinzi.eabove uni200D uni101A kinzi.eabove uni200D uni101B kinzi.eabove uni200D uni101C kinzi.eabove uni200D uni101D kinzi.eabove uni200D uni101E kinzi.eabove uni200D uni101F kinzi.eabove uni200D uni1021 kinzi.eabove uni200D uni1027 kinzi.eabove uni200D uni103F kinzi.eabove uni200D na.alt kinzi.eabove uni200D ra.alt kinzi.eabove uni200D uni1022 kinzi.eabove uni200D uni1050 kinzi.eabove uni200D uni1051 kinzi.eabove uni200D uni105A kinzi.eabove uni200D uni105C kinzi.eabove uni200D uni1065 kinzi.eabove uni200D uni106E kinzi.eabove uni200D uni106F kinzi.eabove uni200D uni1070 kinzi.eabove uni200D uni1075 kinzi.eabove uni200D uni1076 kinzi.eabove uni200D uni1077 kinzi.eabove uni200D uni1078 kinzi.eabove uni200D uni1079 kinzi.eabove uni200D uni107A kinzi.eabove uni200D uni107B kinzi.eabove uni200D uni107C kinzi.eabove uni200D uni107D kinzi.eabove uni200D uni107E kinzi.eabove uni200D uni107F kinzi.eabove uni200D uni1080 kinzi.eabove];
+    sub kinzi @clig21' uni1035 by [uni200D uni1000 kinzi.eabove uni200D uni1001 kinzi.eabove uni200D uni1002 kinzi.eabove uni200D uni1003 kinzi.eabove uni200D uni1004 kinzi.eabove uni200D uni1005 kinzi.eabove uni200D uni1006 kinzi.eabove uni200D uni1007 kinzi.eabove uni200D uni100E kinzi.eabove uni200D uni100F kinzi.eabove uni200D uni1010 kinzi.eabove uni200D uni1011 kinzi.eabove uni200D uni1012 kinzi.eabove uni200D uni1013 kinzi.eabove uni200D uni1014 kinzi.eabove uni200D uni1015 kinzi.eabove uni200D uni1016 kinzi.eabove uni200D uni1017 kinzi.eabove uni200D uni1018 kinzi.eabove uni200D uni1019 kinzi.eabove uni200D uni101A kinzi.eabove uni200D uni101B kinzi.eabove uni200D uni101C kinzi.eabove uni200D uni101D kinzi.eabove uni200D uni101E kinzi.eabove uni200D uni101F kinzi.eabove uni200D uni1021 kinzi.eabove uni200D uni1027 kinzi.eabove uni200D uni103F kinzi.eabove uni200D na.alt kinzi.eabove uni200D ra.alt kinzi.eabove uni200D uni1022 kinzi.eabove uni200D uni1050 kinzi.eabove uni200D uni1051 kinzi.eabove uni200D uni105A kinzi.eabove uni200D uni105C kinzi.eabove uni200D uni1065 kinzi.eabove uni200D uni106E kinzi.eabove uni200D uni106F kinzi.eabove uni200D uni1070 kinzi.eabove uni200D uni1075 kinzi.eabove uni200D uni1076 kinzi.eabove uni200D uni1077 kinzi.eabove uni200D uni1078 kinzi.eabove uni200D uni1079 kinzi.eabove uni200D uni107A kinzi.eabove uni200D uni107B kinzi.eabove uni200D uni107C kinzi.eabove uni200D uni107D kinzi.eabove uni200D uni107E kinzi.eabove uni200D uni107F kinzi.eabove uni200D uni1080 kinzi.eabove];
+} clig60;
+lookup clig61 {
+    sub kinzi @clig21' by [uni200D uni1000 kinzi .notdef uni200D uni1001 kinzi .notdef uni200D uni1002 kinzi .notdef uni200D uni1003 kinzi .notdef uni200D uni1004 kinzi .notdef uni200D uni1005 kinzi .notdef uni200D uni1006 kinzi .notdef uni200D uni1007 kinzi .notdef uni200D uni100E kinzi .notdef uni200D uni100F kinzi .notdef uni200D uni1010 kinzi .notdef uni200D uni1011 kinzi .notdef uni200D uni1012 kinzi .notdef uni200D uni1013 kinzi .notdef uni200D uni1014 kinzi .notdef uni200D uni1015 kinzi .notdef uni200D uni1016 kinzi .notdef uni200D uni1017 kinzi .notdef uni200D uni1018 kinzi .notdef uni200D uni1019 kinzi .notdef uni200D uni101A kinzi .notdef uni200D uni101B kinzi .notdef uni200D uni101C kinzi .notdef uni200D uni101D kinzi .notdef uni200D uni101E kinzi .notdef uni200D uni101F kinzi .notdef uni200D uni1021 kinzi .notdef uni200D uni1027 kinzi .notdef uni200D uni103F kinzi .notdef uni200D na.alt kinzi .notdef uni200D ra.alt kinzi .notdef uni200D uni1022 kinzi .notdef uni200D uni1050 kinzi .notdef uni200D uni1051 kinzi .notdef uni200D uni105A kinzi .notdef uni200D uni105C kinzi .notdef uni200D uni1065 kinzi .notdef uni200D uni106E kinzi .notdef uni200D uni106F kinzi .notdef uni200D uni1070 kinzi .notdef uni200D uni1075 kinzi .notdef uni200D uni1076 kinzi .notdef uni200D uni1077 kinzi .notdef uni200D uni1078 kinzi .notdef uni200D uni1079 kinzi .notdef uni200D uni107A kinzi .notdef uni200D uni107B kinzi .notdef uni200D uni107C kinzi .notdef uni200D uni107D kinzi .notdef uni200D uni107E kinzi .notdef uni200D uni107F kinzi .notdef uni200D uni1080 kinzi .notdef];
+} clig61;
+lookup clig62 {
+    sub ra.kinzi @clig21' by [uni200D uni1000 ra.kinzi .notdef uni200D uni1001 ra.kinzi .notdef uni200D uni1002 ra.kinzi .notdef uni200D uni1003 ra.kinzi .notdef uni200D uni1004 ra.kinzi .notdef uni200D uni1005 ra.kinzi .notdef uni200D uni1006 ra.kinzi .notdef uni200D uni1007 ra.kinzi .notdef uni200D uni100E ra.kinzi .notdef uni200D uni100F ra.kinzi .notdef uni200D uni1010 ra.kinzi .notdef uni200D uni1011 ra.kinzi .notdef uni200D uni1012 ra.kinzi .notdef uni200D uni1013 ra.kinzi .notdef uni200D uni1014 ra.kinzi .notdef uni200D uni1015 ra.kinzi .notdef uni200D uni1016 ra.kinzi .notdef uni200D uni1017 ra.kinzi .notdef uni200D uni1018 ra.kinzi .notdef uni200D uni1019 ra.kinzi .notdef uni200D uni101A ra.kinzi .notdef uni200D uni101B ra.kinzi .notdef uni200D uni101C ra.kinzi .notdef uni200D uni101D ra.kinzi .notdef uni200D uni101E ra.kinzi .notdef uni200D uni101F ra.kinzi .notdef uni200D uni1021 ra.kinzi .notdef uni200D uni1027 ra.kinzi .notdef uni200D uni103F ra.kinzi .notdef uni200D na.alt ra.kinzi .notdef uni200D ra.alt ra.kinzi .notdef uni200D uni1022 ra.kinzi .notdef uni200D uni1050 ra.kinzi .notdef uni200D uni1051 ra.kinzi .notdef uni200D uni105A ra.kinzi .notdef uni200D uni105C ra.kinzi .notdef uni200D uni1065 ra.kinzi .notdef uni200D uni106E ra.kinzi .notdef uni200D uni106F ra.kinzi .notdef uni200D uni1070 ra.kinzi .notdef uni200D uni1075 ra.kinzi .notdef uni200D uni1076 ra.kinzi .notdef uni200D uni1077 ra.kinzi .notdef uni200D uni1078 ra.kinzi .notdef uni200D uni1079 ra.kinzi .notdef uni200D uni107A ra.kinzi .notdef uni200D uni107B ra.kinzi .notdef uni200D uni107C ra.kinzi .notdef uni200D uni107D ra.kinzi .notdef uni200D uni107E ra.kinzi .notdef uni200D uni107F ra.kinzi .notdef uni200D uni1080 ra.kinzi .notdef];
+} clig62;
+lookup clig63 {
+    sub kinzi uni200B uni1031' by [uni1031 kinzi .notdef];
+} clig63;
+lookup clig64 {
+    sub @clig21 kinzi' .notdef' uni1036' by kinzi.anusvara;
+} clig64;
+lookup clig65 {
+    sub uni1031 uni1015 uni105A' by aa.alt.atha;
+    sub uni1031 uni1016 uni105A' by aa.alt.atha;
+    sub uni1031 uni1012 uni105A' by aa.alt.atha;
+    sub uni1031 uni1001 uni105A' by aa.alt.atha;
+} clig65;
+lookup clig66 {
+    sub uni1031' [uni103B uni107E] by [uni001D.001 uni1031];
+    sub uni1031' @clig15 [uni1037 uni1038 uni1094] by [uni001D.001 uni1031];
+    sub uni1031' @clig14 [uni1037 uni1038 uni1094] by [uni001D.001 uni1031];
+    sub uni1031' [uni1001 uni1002 uni1004 uni1012 uni1013 uni1015 uni101D] aa.alt.atha by [uni001D.001 uni1031];
+    sub uni107E @clig14 uni1031' by [uni001D.001 uni1031];
+} clig66;
+lookup clig67 {
+    sub uni1084 [uni1088 uni108A]' by [uni001D.001 uni1088 uni001D.001 uni108A];
+} clig67;
+lookup clig68 {
+    sub @clig11 uni103B' by uni103C;
+    sub uni103B' uni1001 uni102C by uni103C;
+    sub uni103B' uni1017 uni100A uni1039 by uni103C;
+    sub uni103B' uni1017 uni100A uni1037 by uni103C;
+    sub uni103B' uni1015 uni100A uni1039 by uni103C;
+    sub uni103B' uni1015 uni100A uni1037 by uni103C;
+    sub uni103B' uni1000 uni100A uni1039 by uni103C;
+    sub uni103B' uni1000 uni100A uni1037 by uni103C;
+    sub uni103B' uni1001 uni100A uni1039 by uni103C;
+    sub uni103B' uni1001 uni100A uni1037 by uni103C;
+    sub uni103B' uni1016 uni100A uni1037 by uni103C;
+    sub uni103B' uni1016 uni100A uni1039 by uni103C;
+    sub uni103B' uni1016 uni1005 uni1039 by uni103C;
+    sub space uni103B' by uni103C;
+} clig68;
+lookup clig69 {
+    sub @clig24' uni1031 by [.notdef uni1031 uni1000 uni200D .notdef uni1031 uni1001 uni200D .notdef uni1031 uni1002 uni200D .notdef uni1031 uni1003 uni200D .notdef uni1031 uni1004 uni200D .notdef uni1031 uni1005 uni200D .notdef uni1031 uni1006 uni200D .notdef uni1031 uni1007 uni200D .notdef uni1031 uni1008 uni200D .notdef uni1031 uni1009 uni200D .notdef uni1031 uni100A uni200D .notdef uni1031 uni100B uni200D .notdef uni1031 uni100C uni200D .notdef uni1031 uni100D uni200D .notdef uni1031 uni100E uni200D .notdef uni1031 uni100F uni200D .notdef uni1031 uni1010 uni200D .notdef uni1031 uni1011 uni200D .notdef uni1031 uni1012 uni200D .notdef uni1031 uni1013 uni200D .notdef uni1031 uni1014 uni200D .notdef uni1031 uni1015 uni200D .notdef uni1031 uni1016 uni200D .notdef uni1031 uni1017 uni200D .notdef uni1031 uni1018 uni200D .notdef uni1031 uni1019 uni200D .notdef uni1031 uni101A uni200D .notdef uni1031 uni101B uni200D .notdef uni1031 uni101C uni200D .notdef uni1031 uni101D uni200D .notdef uni1031 uni101E uni200D .notdef uni1031 uni101F uni200D .notdef uni1031 uni1020 uni200D .notdef uni1031 uni1021 uni200D .notdef uni1031 uni1027 uni200D .notdef uni1031 uni1029 uni200D .notdef uni1031 uni103F uni200D .notdef uni1031 nya.alt uni200D .notdef uni1031 tta.tta.lig uni200D .notdef uni1031 tta.ttha.lig uni200D .notdef uni1031 dda.ddha.lig uni200D .notdef uni1031 nna.dda.lig uni200D .notdef uni1031 na.alt uni200D .notdef uni1031 ra.alt uni200D .notdef uni1031 dda.dda.lig uni200D .notdef uni1031 lla.ha.med uni200D .notdef uni1031 uni1022 uni200D .notdef uni1031 uni1050 uni200D .notdef uni1031 uni1051 uni200D .notdef uni1031 uni105A uni200D .notdef uni1031 uni105B uni200D .notdef uni1031 uni105C uni200D .notdef uni1031 uni105D uni200D .notdef uni1031 uni1061 uni200D .notdef uni1031 uni1065 uni200D .notdef uni1031 uni106E uni200D .notdef uni1031 uni106F uni200D .notdef uni1031 uni1070 uni200D .notdef uni1031 uni1075 uni200D .notdef uni1031 uni1076 uni200D .notdef uni1031 uni1077 uni200D .notdef uni1031 uni1078 uni200D .notdef uni1031 uni1079 uni200D .notdef uni1031 uni107A uni200D .notdef uni1031 uni107B uni200D .notdef uni1031 uni107C uni200D .notdef uni1031 uni107D uni200D .notdef uni1031 uni107E uni200D .notdef uni1031 uni107F uni200D .notdef uni1031 uni1080 uni200D .notdef uni1031 uni1081 uni200D];
+    sub @clig24' @clig12 uni1031 by [.notdef uni1031 uni1000 uni200D .notdef uni1031 uni1001 uni200D .notdef uni1031 uni1002 uni200D .notdef uni1031 uni1003 uni200D .notdef uni1031 uni1004 uni200D .notdef uni1031 uni1005 uni200D .notdef uni1031 uni1006 uni200D .notdef uni1031 uni1007 uni200D .notdef uni1031 uni1008 uni200D .notdef uni1031 uni1009 uni200D .notdef uni1031 uni100A uni200D .notdef uni1031 uni100B uni200D .notdef uni1031 uni100C uni200D .notdef uni1031 uni100D uni200D .notdef uni1031 uni100E uni200D .notdef uni1031 uni100F uni200D .notdef uni1031 uni1010 uni200D .notdef uni1031 uni1011 uni200D .notdef uni1031 uni1012 uni200D .notdef uni1031 uni1013 uni200D .notdef uni1031 uni1014 uni200D .notdef uni1031 uni1015 uni200D .notdef uni1031 uni1016 uni200D .notdef uni1031 uni1017 uni200D .notdef uni1031 uni1018 uni200D .notdef uni1031 uni1019 uni200D .notdef uni1031 uni101A uni200D .notdef uni1031 uni101B uni200D .notdef uni1031 uni101C uni200D .notdef uni1031 uni101D uni200D .notdef uni1031 uni101E uni200D .notdef uni1031 uni101F uni200D .notdef uni1031 uni1020 uni200D .notdef uni1031 uni1021 uni200D .notdef uni1031 uni1027 uni200D .notdef uni1031 uni1029 uni200D .notdef uni1031 uni103F uni200D .notdef uni1031 nya.alt uni200D .notdef uni1031 tta.tta.lig uni200D .notdef uni1031 tta.ttha.lig uni200D .notdef uni1031 dda.ddha.lig uni200D .notdef uni1031 nna.dda.lig uni200D .notdef uni1031 na.alt uni200D .notdef uni1031 ra.alt uni200D .notdef uni1031 dda.dda.lig uni200D .notdef uni1031 lla.ha.med uni200D .notdef uni1031 uni1022 uni200D .notdef uni1031 uni1050 uni200D .notdef uni1031 uni1051 uni200D .notdef uni1031 uni105A uni200D .notdef uni1031 uni105B uni200D .notdef uni1031 uni105C uni200D .notdef uni1031 uni105D uni200D .notdef uni1031 uni1061 uni200D .notdef uni1031 uni1065 uni200D .notdef uni1031 uni106E uni200D .notdef uni1031 uni106F uni200D .notdef uni1031 uni1070 uni200D .notdef uni1031 uni1075 uni200D .notdef uni1031 uni1076 uni200D .notdef uni1031 uni1077 uni200D .notdef uni1031 uni1078 uni200D .notdef uni1031 uni1079 uni200D .notdef uni1031 uni107A uni200D .notdef uni1031 uni107B uni200D .notdef uni1031 uni107C uni200D .notdef uni1031 uni107D uni200D .notdef uni1031 uni107E uni200D .notdef uni1031 uni107F uni200D .notdef uni1031 uni1080 uni200D .notdef uni1031 uni1081 uni200D];
+    sub @clig24' @clig16 uni1031 by [.notdef uni1031 uni1000 uni200D .notdef uni1031 uni1001 uni200D .notdef uni1031 uni1002 uni200D .notdef uni1031 uni1003 uni200D .notdef uni1031 uni1004 uni200D .notdef uni1031 uni1005 uni200D .notdef uni1031 uni1006 uni200D .notdef uni1031 uni1007 uni200D .notdef uni1031 uni1008 uni200D .notdef uni1031 uni1009 uni200D .notdef uni1031 uni100A uni200D .notdef uni1031 uni100B uni200D .notdef uni1031 uni100C uni200D .notdef uni1031 uni100D uni200D .notdef uni1031 uni100E uni200D .notdef uni1031 uni100F uni200D .notdef uni1031 uni1010 uni200D .notdef uni1031 uni1011 uni200D .notdef uni1031 uni1012 uni200D .notdef uni1031 uni1013 uni200D .notdef uni1031 uni1014 uni200D .notdef uni1031 uni1015 uni200D .notdef uni1031 uni1016 uni200D .notdef uni1031 uni1017 uni200D .notdef uni1031 uni1018 uni200D .notdef uni1031 uni1019 uni200D .notdef uni1031 uni101A uni200D .notdef uni1031 uni101B uni200D .notdef uni1031 uni101C uni200D .notdef uni1031 uni101D uni200D .notdef uni1031 uni101E uni200D .notdef uni1031 uni101F uni200D .notdef uni1031 uni1020 uni200D .notdef uni1031 uni1021 uni200D .notdef uni1031 uni1027 uni200D .notdef uni1031 uni1029 uni200D .notdef uni1031 uni103F uni200D .notdef uni1031 nya.alt uni200D .notdef uni1031 tta.tta.lig uni200D .notdef uni1031 tta.ttha.lig uni200D .notdef uni1031 dda.ddha.lig uni200D .notdef uni1031 nna.dda.lig uni200D .notdef uni1031 na.alt uni200D .notdef uni1031 ra.alt uni200D .notdef uni1031 dda.dda.lig uni200D .notdef uni1031 lla.ha.med uni200D .notdef uni1031 uni1022 uni200D .notdef uni1031 uni1050 uni200D .notdef uni1031 uni1051 uni200D .notdef uni1031 uni105A uni200D .notdef uni1031 uni105B uni200D .notdef uni1031 uni105C uni200D .notdef uni1031 uni105D uni200D .notdef uni1031 uni1061 uni200D .notdef uni1031 uni1065 uni200D .notdef uni1031 uni106E uni200D .notdef uni1031 uni106F uni200D .notdef uni1031 uni1070 uni200D .notdef uni1031 uni1075 uni200D .notdef uni1031 uni1076 uni200D .notdef uni1031 uni1077 uni200D .notdef uni1031 uni1078 uni200D .notdef uni1031 uni1079 uni200D .notdef uni1031 uni107A uni200D .notdef uni1031 uni107B uni200D .notdef uni1031 uni107C uni200D .notdef uni1031 uni107D uni200D .notdef uni1031 uni107E uni200D .notdef uni1031 uni107F uni200D .notdef uni1031 uni1080 uni200D .notdef uni1031 uni1081 uni200D];
+} clig69;
+lookup clig70 {
+    sub @clig23' uni1084 by [.notdef uni1084 uni1000 uni200D .notdef uni1084 uni1001 uni200D .notdef uni1084 uni1002 uni200D .notdef uni1084 uni1003 uni200D .notdef uni1084 uni1004 uni200D .notdef uni1084 uni1005 uni200D .notdef uni1084 uni1006 uni200D .notdef uni1084 uni1007 uni200D .notdef uni1084 uni1008 uni200D .notdef uni1084 uni1009 uni200D .notdef uni1084 uni100A uni200D .notdef uni1084 uni100B uni200D .notdef uni1084 uni100C uni200D .notdef uni1084 uni100D uni200D .notdef uni1084 uni100E uni200D .notdef uni1084 uni100F uni200D .notdef uni1084 uni1010 uni200D .notdef uni1084 uni1011 uni200D .notdef uni1084 uni1012 uni200D .notdef uni1084 uni1013 uni200D .notdef uni1084 uni1014 uni200D .notdef uni1084 uni1015 uni200D .notdef uni1084 uni1016 uni200D .notdef uni1084 uni1017 uni200D .notdef uni1084 uni1018 uni200D .notdef uni1084 uni1019 uni200D .notdef uni1084 uni101A uni200D .notdef uni1084 uni101B uni200D .notdef uni1084 uni101C uni200D .notdef uni1084 uni101D uni200D .notdef uni1084 uni101E uni200D .notdef uni1084 uni101F uni200D .notdef uni1084 uni1020 uni200D .notdef uni1084 uni1021 uni200D .notdef uni1084 uni1027 uni200D .notdef uni1084 uni1029 uni200D .notdef uni1084 uni103F uni200D .notdef uni1084 nya.alt uni200D .notdef uni1084 na.alt uni200D .notdef uni1084 ra.alt uni200D .notdef uni1084 uni1022 uni200D .notdef uni1084 uni1050 uni200D .notdef uni1084 uni1051 uni200D .notdef uni1084 uni105A uni200D .notdef uni1084 uni105B uni200D .notdef uni1084 uni105C uni200D .notdef uni1084 uni105D uni200D .notdef uni1084 uni1061 uni200D .notdef uni1084 uni1065 uni200D .notdef uni1084 uni106E uni200D .notdef uni1084 uni106F uni200D .notdef uni1084 uni1070 uni200D .notdef uni1084 uni1075 uni200D .notdef uni1084 uni1076 uni200D .notdef uni1084 uni1077 uni200D .notdef uni1084 uni1078 uni200D .notdef uni1084 uni1079 uni200D .notdef uni1084 uni107A uni200D .notdef uni1084 uni107B uni200D .notdef uni1084 uni107C uni200D .notdef uni1084 uni107D uni200D .notdef uni1084 uni107E uni200D .notdef uni1084 uni107F uni200D .notdef uni1084 uni1080 uni200D .notdef uni1084 uni1081 uni200D];
+    sub @clig23' @clig12 uni1084 by [.notdef uni1084 uni1000 uni200D .notdef uni1084 uni1001 uni200D .notdef uni1084 uni1002 uni200D .notdef uni1084 uni1003 uni200D .notdef uni1084 uni1004 uni200D .notdef uni1084 uni1005 uni200D .notdef uni1084 uni1006 uni200D .notdef uni1084 uni1007 uni200D .notdef uni1084 uni1008 uni200D .notdef uni1084 uni1009 uni200D .notdef uni1084 uni100A uni200D .notdef uni1084 uni100B uni200D .notdef uni1084 uni100C uni200D .notdef uni1084 uni100D uni200D .notdef uni1084 uni100E uni200D .notdef uni1084 uni100F uni200D .notdef uni1084 uni1010 uni200D .notdef uni1084 uni1011 uni200D .notdef uni1084 uni1012 uni200D .notdef uni1084 uni1013 uni200D .notdef uni1084 uni1014 uni200D .notdef uni1084 uni1015 uni200D .notdef uni1084 uni1016 uni200D .notdef uni1084 uni1017 uni200D .notdef uni1084 uni1018 uni200D .notdef uni1084 uni1019 uni200D .notdef uni1084 uni101A uni200D .notdef uni1084 uni101B uni200D .notdef uni1084 uni101C uni200D .notdef uni1084 uni101D uni200D .notdef uni1084 uni101E uni200D .notdef uni1084 uni101F uni200D .notdef uni1084 uni1020 uni200D .notdef uni1084 uni1021 uni200D .notdef uni1084 uni1027 uni200D .notdef uni1084 uni1029 uni200D .notdef uni1084 uni103F uni200D .notdef uni1084 nya.alt uni200D .notdef uni1084 na.alt uni200D .notdef uni1084 ra.alt uni200D .notdef uni1084 uni1022 uni200D .notdef uni1084 uni1050 uni200D .notdef uni1084 uni1051 uni200D .notdef uni1084 uni105A uni200D .notdef uni1084 uni105B uni200D .notdef uni1084 uni105C uni200D .notdef uni1084 uni105D uni200D .notdef uni1084 uni1061 uni200D .notdef uni1084 uni1065 uni200D .notdef uni1084 uni106E uni200D .notdef uni1084 uni106F uni200D .notdef uni1084 uni1070 uni200D .notdef uni1084 uni1075 uni200D .notdef uni1084 uni1076 uni200D .notdef uni1084 uni1077 uni200D .notdef uni1084 uni1078 uni200D .notdef uni1084 uni1079 uni200D .notdef uni1084 uni107A uni200D .notdef uni1084 uni107B uni200D .notdef uni1084 uni107C uni200D .notdef uni1084 uni107D uni200D .notdef uni1084 uni107E uni200D .notdef uni1084 uni107F uni200D .notdef uni1084 uni1080 uni200D .notdef uni1084 uni1081 uni200D];
+} clig70;
+lookup clig71 {
+    sub [kinzi ra.kinzi]' uni200D' @clig14 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' @clig15 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' uni1031 @clig14 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' uni1031 @clig15 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' ra.med.uppershort.wide @clig14 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' ra.med.uppershort @clig15 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' uni1031 ra.med.uppershort.wide @clig14 @clig4 by .notdef;
+    sub [kinzi ra.kinzi]' uni200D' uni1031 ra.med.uppershort @clig15 @clig4 by .notdef;
+} clig71;
+lookup clig72 {
+    sub kinzi' uni200B uni1031 kinzi by .notdef;
+} clig72;
+lookup clig73 {
+    sub uni1031 ra.med.wide @clig14 uni200D' uni103C' [wa.ha.med ha.med.alt]' uni1031' by wa.ha.med;
+    sub uni1031 uni103C @clig15 uni200D' uni103C' [wa.ha.med ha.med.alt]' uni1031' by wa.ha.med;
+} clig73;
+lookup clig74 {
+    sub uni1031 uni103C @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 ra.med.wide @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 rawa.med.wide.001 @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 rawa.med.001 @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni103C @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub ra.med.wide @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 @clig9 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub ra.med.uppershort.wide @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub ra.med.uppershort @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub ra.med.lowershort1.wide @clig14 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub ra.med.lowershort @clig15 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 @clig15 @clig4 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+    sub uni1031 @clig14 @clig4 @clig8' @clig20' [uni102D uni102E uni1031 uni1036 uni103C]' by .notdef;
+} clig74;
+lookup clig75 {
+    sub uni1031 uni103C @clig15 uni200D' uni103C' ha.med.alt' uni1031' by ha.med.alt;
+    sub uni1031 uni103C @clig14 uni200D' uni103C' ha.med.alt' uni1031' by ha.med.alt;
+} clig75;
+lookup clig76 {
+    sub uni1031 @clig14 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+    sub uni1031 @clig15 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+    sub uni1031 @clig9 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+    sub uni1084 @clig14 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+    sub uni1084 @clig15 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+    sub uni1084 @clig9 uni200D' @clig12' [uni1031 uni1084]' by uni103B;
+} clig76;
+lookup clig77 {
+    sub uni1031 @clig14 @clig22' @clig2' by uni103B;
+    sub uni1031 @clig15 @clig22' @clig2' by uni103B;
+    sub uni1031 @clig9 @clig22' @clig2' by uni103B;
+    sub uni1031 [tta.tta.lig tta.ttha.lig dda.ddha.lig nna.dda.lig dda.dda.lig lla.ha.med] @clig22' @clig2' by uni103B;
+    sub uni1031 @clig14 @clig4 @clig22' @clig2' by uni103B;
+    sub uni1031 @clig15 @clig4 @clig22' @clig2' by uni103B;
+    sub @clig14 kinzi.i.vow @clig22' @clig2' by uni103B;
+    sub @clig14 kinzi.ii.vow @clig22' @clig2' by uni103B;
+    sub @clig15 kinzi.i.vow @clig22' @clig2' by uni103B;
+    sub @clig15 kinzi.ii.vow @clig22' @clig2' by uni103B;
+    sub uni1031 @clig14 @clig16 @clig22' @clig2' by uni103B;
+    sub uni1031 @clig15 @clig16 @clig22' @clig2' by uni103B;
+    sub uni1031 ra.med.wide @clig14 @clig22' @clig2' by uni103B;
+    sub uni1031 uni103C @clig15 @clig22' @clig2' by uni103B;
+    sub uni1031 ra.med.lowershort1.wide @clig14 @clig22' @clig2' by uni103B;
+    sub uni1031 ra.med.lowershort @clig15 @clig22' @clig2' by uni103B;
+    sub ra.med.uppershort.wide @clig14 @clig22' @clig2' by uni103B;
+    sub ra.med.uppershort @clig15 @clig22' @clig2' by uni103B;
+} clig77;
+lookup clig78 {
+    sub uni1084 @clig14 uni200D' uni1084' by .notdef;
+    sub uni1084 @clig15 uni200D' uni1084' by .notdef;
+    sub uni1084 @clig9 uni200D' uni1084' by .notdef;
+} clig78;
+lookup clig79 {
+    sub ra.med.uppershort.wide @clig14 @clig4 .notdef uni103C' [uni102D uni102E uni1036]' by .notdef;
+    sub ra.med.uppershort @clig15 @clig4 .notdef uni103C' [uni102D uni102E uni1036]' by .notdef;
+} clig79;
+lookup clig80 {
+    sub ra.med.wide @clig14 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub uni103C @clig15 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort @clig15 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort.wide @clig14 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub rawa.med.wide.001 @clig14 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub rawa.med.001 @clig15 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort.wide @clig14 @clig4 .notdef uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort @clig15 @clig4 .notdef uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.wide @clig14 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.wide @clig15 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub uni103C @clig15 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort @clig15 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort.wide @clig15 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+    sub ra.med.uppershort.wide @clig14 @clig16 uni200D' [uni103C ra.med.wide rawa.med.001 rawa.med.wide.001]' by .notdef;
+} clig80;
+lookup clig81 {
+    sub [kinzi.i.vow kinzi.ii.vow kinzi.anusvara kinzi.ii.mon kinzi.eabove kinzi.ai.vow ra.kinzi.i ra.kinzi.ii] @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.i.vow @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.ii.vow @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.anusvara @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.ai.vow @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.ii.mon @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub kinzi.eabove @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub ra.kinzi.i @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+    sub ra.kinzi.ii @clig12 @clig1' by [.notdef .notdef .notdef .notdef .notdef .notdef];
+} clig81;
+lookup clig82 {
+    sub .notdef ha.med.alt by ha.med.alt;
+    sub .notdef ra.med.uppershort by ra.med.uppershort;
+    sub .notdef ra.med.uppershort.wide by ra.med.uppershort.wide;
+    sub .notdef wa.ha.med by wa.ha.med;
+    sub .notdef uni1036 by uni1036;
+    sub .notdef uni102F by uni102F;
+    sub .notdef .notdef uni1031 by uni1031;
+    sub .notdef .notdef uni1084 by uni1084;
+    sub .notdef uni1000 by uni1000;
+    sub .notdef uni1003 by uni1003;
+    sub .notdef uni1006 by uni1006;
+    sub .notdef uni100F by uni100F;
+    sub .notdef uni1010 by uni1010;
+    sub .notdef uni1011 by uni1011;
+    sub .notdef uni1018 by uni1018;
+    sub .notdef uni101A by uni101A;
+    sub .notdef uni101C by uni101C;
+    sub .notdef uni101E by uni101E;
+    sub .notdef uni101F by uni101F;
+    sub .notdef uni1021 by uni1021;
+    sub .notdef uni103F by uni103F;
+    sub .notdef uni1022 by uni1022;
+    sub .notdef uni106E by uni106E;
+    sub .notdef uni106F by uni106F;
+    sub .notdef uni1070 by uni1070;
+    sub .notdef uni1078 by uni1078;
+    sub .notdef uni1079 by uni1079;
+    sub .notdef uni107A by uni107A;
+    sub .notdef uni107B by uni107B;
+    sub .notdef uni107C by uni107C;
+    sub .notdef uni107D by uni107D;
+    sub .notdef uni107E by uni107E;
+    sub .notdef uni1080 by uni1080;
+    sub .notdef uni1001 by uni1001;
+    sub .notdef uni1002 by uni1002;
+    sub .notdef uni1004 by uni1004;
+    sub .notdef uni1005 by uni1005;
+    sub .notdef uni1007 by uni1007;
+    sub .notdef uni100E by uni100E;
+    sub .notdef uni1012 by uni1012;
+    sub .notdef uni1013 by uni1013;
+    sub .notdef uni1014 by uni1014;
+    sub .notdef uni1015 by uni1015;
+    sub .notdef uni1016 by uni1016;
+    sub .notdef uni1017 by uni1017;
+    sub .notdef uni1019 by uni1019;
+    sub .notdef uni101B by uni101B;
+    sub .notdef uni101D by uni101D;
+    sub .notdef uni1027 by uni1027;
+    sub .notdef na.alt by na.alt;
+    sub .notdef ra.alt by ra.alt;
+    sub .notdef uni1050 by uni1050;
+    sub .notdef uni1051 by uni1051;
+    sub .notdef uni105A by uni105A;
+    sub .notdef uni105C by uni105C;
+    sub .notdef uni1065 by uni1065;
+    sub .notdef uni1075 by uni1075;
+    sub .notdef uni1076 by uni1076;
+    sub .notdef uni1077 by uni1077;
+    sub .notdef uni107F by uni107F;
+    sub .notdef uni1031 by uni1031;
+    sub .notdef uni1084 by uni1084;
+    sub uni1000 .notdef by uni1000;
+    sub uni1001 .notdef by uni1001;
+    sub uni1002 .notdef by uni1002;
+    sub uni1003 .notdef by uni1003;
+    sub uni1004 .notdef by uni1004;
+    sub uni1005 .notdef by uni1005;
+    sub uni1006 .notdef by uni1006;
+    sub uni1007 .notdef by uni1007;
+    sub uni1008 .notdef by uni1008;
+    sub uni1009 .notdef by uni1009;
+    sub uni100A .notdef by uni100A;
+    sub uni100B .notdef by uni100B;
+    sub uni100C .notdef by uni100C;
+    sub uni100D .notdef by uni100D;
+    sub uni100E .notdef by uni100E;
+    sub uni100F .notdef by uni100F;
+    sub uni1010 .notdef by uni1010;
+    sub uni1011 .notdef by uni1011;
+    sub uni1012 .notdef by uni1012;
+    sub uni1013 .notdef by uni1013;
+    sub uni1014 .notdef by uni1014;
+    sub uni1015 .notdef by uni1015;
+    sub uni1016 .notdef by uni1016;
+    sub uni1017 .notdef by uni1017;
+    sub uni1018 .notdef by uni1018;
+    sub uni1019 .notdef by uni1019;
+    sub uni101A .notdef by uni101A;
+    sub uni101B .notdef by uni101B;
+    sub uni101C .notdef by uni101C;
+    sub uni101D .notdef by uni101D;
+    sub uni101E .notdef by uni101E;
+    sub uni101F .notdef by uni101F;
+    sub uni1020 .notdef by uni1020;
+    sub uni1021 .notdef by uni1021;
+    sub uni1027 .notdef by uni1027;
+    sub uni1029 .notdef by uni1029;
+    sub uni102D .notdef by uni102D;
+    sub uni1037 uni200D uni103A by uni1037;
+    sub uni103B .notdef by uni103B;
+    sub uni103D .notdef by uni103D;
+    sub uni103E .notdef by uni103E;
+    sub uni103F .notdef by uni103F;
+    sub nya.alt .notdef by nya.alt;
+    sub tta.tta.lig .notdef by tta.tta.lig;
+    sub tta.ttha.lig .notdef by tta.ttha.lig;
+    sub dda.ddha.lig .notdef by dda.ddha.lig;
+    sub nna.dda.lig .notdef by nna.dda.lig;
+    sub na.alt .notdef by na.alt;
+    sub ra.alt .notdef by ra.alt;
+    sub dda.dda.lig .notdef by dda.dda.lig;
+    sub lla.ha.med .notdef by lla.ha.med;
+    sub ya.ha.med .notdef by ya.ha.med;
+    sub ya.wa.med .notdef by ya.wa.med;
+    sub wa.ha.med .notdef by wa.ha.med;
+    sub ha.med.alt .notdef by ha.med.alt;
+    sub kinzi .notdef by kinzi;
+    sub kinzi.i.vow .notdef by kinzi.i.vow;
+    sub kinzi.ii.vow .notdef by kinzi.ii.vow;
+    sub kinzi.anusvara .notdef by kinzi.anusvara;
+    sub s.tawa .notdef by s.tawa;
+    sub ya.med.alt .notdef by ya.med.alt;
+    sub uni1022 .notdef by uni1022;
+    sub uni1050 .notdef by uni1050;
+    sub uni1051 .notdef by uni1051;
+    sub uni105A .notdef by uni105A;
+    sub uni105B .notdef by uni105B;
+    sub uni105C .notdef by uni105C;
+    sub uni105D .notdef by uni105D;
+    sub uni105E .notdef by uni105E;
+    sub uni105F .notdef by uni105F;
+    sub uni1060 .notdef by uni1060;
+    sub uni1061 .notdef by uni1061;
+    sub uni1065 .notdef by uni1065;
+    sub uni106E .notdef by uni106E;
+    sub uni106F .notdef by uni106F;
+    sub uni1070 .notdef by uni1070;
+    sub uni1075 .notdef by uni1075;
+    sub uni1076 .notdef by uni1076;
+    sub uni1077 .notdef by uni1077;
+    sub uni1078 .notdef by uni1078;
+    sub uni1079 .notdef by uni1079;
+    sub uni107A .notdef by uni107A;
+    sub uni107B .notdef by uni107B;
+    sub uni107C .notdef by uni107C;
+    sub uni107D .notdef by uni107D;
+    sub uni107E .notdef by uni107E;
+    sub uni107F .notdef by uni107F;
+    sub uni1080 .notdef by uni1080;
+    sub uni1081 .notdef by uni1081;
+    sub uni1082 .notdef by uni1082;
+    sub kinzi.ii.mon .notdef by kinzi.ii.mon;
+    sub kinzi.eabove .notdef by kinzi.eabove;
+    sub kinzi.ai.vow .notdef by kinzi.ai.vow;
+    sub tawa.alt .notdef by tawa.alt;
+    sub bba.sub .notdef by bba.sub;
+    sub mon.nga.sub .notdef by mon.nga.sub;
+    sub ra.kinzi .notdef by ra.kinzi;
+    sub ra.kinzi.i .notdef by ra.kinzi.i;
+    sub ra.kinzi.ii .notdef by ra.kinzi.ii;
+    sub shan.ya.wa.med .notdef by shan.ya.wa.med;
+    sub ya.med.htunpra .notdef by ya.med.htunpra;
+} clig82;
+lookup clig83 {
+    sub uni1009' uni102C by nya.short;
+} clig83;
+lookup clig84 {
+    sub @clig7 uni1037' by aukmyit.alt2;
+    sub @clig5 [uni102D uni102E uni102F uni1031 uni1032 uni1036 uni103E uni200B] uni1037' by aukmyit.alt2;
+    sub [ha.i.u uni1082 uni1083] uni1037' by aukmyit.alt2;
+    sub uni1082 uni103A uni1037' by aukmyit.alt2;
+} clig84;
+lookup clig85 {
+    sub [uni1014 uni102F uni1030 uni103E uni1060] uni1037' by aukmyit.alt1;
+    sub [uni1014 uni102F uni1030 uni103E uni1060] [uni102D uni102E uni1032 uni1036 uni103A] uni1037' by aukmyit.alt1;
+    sub [uni1069 uni106A uni106B sg.eu.final.y] uni1037' by aukmyit.alt1;
+} clig85;
+lookup clig86 {
+    sub @clig16 uni103B' by ya.med.alt;
+} clig86;
+lookup clig87 {
+    sub [uni107E uni1081] uni102D' [uni102F uni1030]' by i.u.vow;
+} clig87;
+lookup clig88 {
+    sub [uni1091 uni1092]' [uni102C uni1038] by [nna.dda.lig tta.ttha.lig];
+    sub [uni1000 uni1019 uni1060] [uni1091 uni1092]' by [nna.dda.lig tta.ttha.lig];
+} clig88;
+lookup clig89 {
+    sub [uni100A uni108F] [uni1087 uni1088]' by [ha.med.alt ha.med.u.sig];
+    sub [uni1087 uni1088]' uni102C by [ha.med.alt ha.med.u.sig];
+    sub [uni1087 uni1088]' uni1004 uni1039 by [ha.med.alt ha.med.u.sig];
+} clig89;
+lookup clig90 {
+    sub uni107F' @clig15 by ra.med.uppershort;
+} clig90;
+lookup clig91 {
+    sub uni1080' @clig14 by ra.med.uppershort.wide;
+} clig91;
+lookup clig92 {
+    sub uni1031 uni107E' by ra.med.wide;
+    sub uni107E' [uni1000 uni101E] by ra.med.wide;
+    sub [uni102C uni1038 uni1039] uni107E' by ra.med.wide;
+    sub uni107E' uni1000 uni103D by ra.med.wide;
+} clig92;
+lookup clig93 {
+    sub [uni106B uni108F uni1090]' [uni102D uni102F uni1030 uni1032 uni103D uni103E ha.med.u.sig u.sig.long] by [nnya.alt na.alt ra.alt];
+    sub [uni106B uni108F uni1090]' uni1036 uni102F by [nnya.alt na.alt ra.alt];
+    sub [uni106B uni108F uni1090]' [uni1071 uni1072 uni1075 uni1088 uni108A] by [nnya.alt na.alt ra.alt];
+} clig93;
+lookup clig94 {
+    sub uni102D [uni1033 uni1034]' by [u.sig.long uu.sig.long];
+    sub [uni1033 uni1034]' uni102D by [u.sig.long uu.sig.long];
+    sub uni1039 [uni1033 uni1034]' by [u.sig.long uu.sig.long];
+    sub uni103C @clig15 [uni1033 uni1034]' by [u.sig.long uu.sig.long];
+    sub [uni1036 uni103E uni1075] [uni1033 uni1034]' by [u.sig.long uu.sig.long];
+    sub [uni1033 uni1034]' uni1038 by [u.sig.long uu.sig.long];
+    sub uni103B uni001D.001 [uni1033 uni1034]' uni1015 uni1039 by [u.sig.long uu.sig.long];
+} clig94;
+lookup clig95 {
+    sub @clig10 [uni1094 uni1095]' by [aukmyit.alt2 aukmyit.alt2];
+} clig95;
+lookup clig96 {
+    sub [uni1019 uni101B uni101C ma.sub nnya.alt ra.alt] [uni1088 uni1089 uni108A]' by [ha.med.u.sig ha.med.u.sig wa.ha.med];
+    sub [uni1088 uni1089 uni108A]' [aukmyit.alt1 aukmyit.alt2 uni1095] by [ha.med.u.sig ha.med.u.sig wa.ha.med];
+} clig96;
+lookup clig97 {
+    sub uni1064' uni102B by kinzi;
+    sub [uni1000 uni1002] uni1064' by kinzi;
+} clig97;
+lookup clig98 {
+    sub [uni1002 uni1005] [uni1062 uni1065]' by [ga.sub ca.sub];
+} clig98;
+lookup clig99 {
+    sub [uni1015 uni1019] [uni1078 uni107B uni107C]' by [pa.sub bha.sub ma.sub];
+} clig99;
+lookup clig100 {
+    sub [uni1010 uni102D na.alt] [uni1071 uni1072 uni1073 uni1074]' by [ta.sub ta.sub tha.sub tha.sub];
+} clig100;
+lookup clig101 {
+    sub uni1075' [u.sig.long uu.sig.long] by da.sub;
+    sub na.alt uni1075' by da.sub;
+} clig101;
+lookup clig102 {
+    sub uni1000 uni1061' by kha.sub;
+} clig102;
+lookup clig104 {
+    sub uni100F uni1070' by nna.sub;
+} clig104;
+} clig;
+
